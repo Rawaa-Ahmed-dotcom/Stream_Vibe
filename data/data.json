@@ -1,0 +1,9 @@
+{
+    "movies" : [
+        {
+            "id" : 1,
+            "gallary" : "https://img.freepik.com/free-photo/beautiful-shot-grassy-hills-covered-trees-near-mountains-dolomites-italy_181624-24400.jpg?t=st=1741444679~exp=1741448279~hmac=118a7095048adda19f044bd73a1bf7280e4b22076a301e1dc53077074bcc02d9&w=1380",
+            "title" : "Action"
+        }
+    ]
+}
