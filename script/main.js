@@ -85,7 +85,46 @@ renderActiveLink();
 
 
 // Swiper 
-
+let swiperZero = new Swiper(".swiper-0", {
+    speed: 800,
+    spaceBetween: 20,
+    slidesPerView: "auto",
+    loop: true,
+    navigation: {
+        nextEl: `.pagination-right-0`,
+        prevEl: `.pagination-left-0`,
+    },
+    pagination: {
+        el: `.pagination-0`,
+        type: "bullets",
+    },
+    scrollbar: {
+        el: '.swiper-scrollbar-0',
+        draggable: true,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+        },
+        600: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+        1440: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+        1920: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+        },
+    },
+});
 
 
 let swiperOne= new Swiper(".swiper-1", {
@@ -707,50 +746,6 @@ function displayMoviesInHome(movies) {
         document.querySelector(".categories .swiper-wrapper").innerHTML = temp;
 }
 getMoviesInHome();
-setTimeout(() => {
-    let swiperZero = new Swiper(".swiper-0", {
-        speed: 800,
-        spaceBetween: 20,
-        slidesPerView: "auto",
-        loop: true,
-        navigation: {
-            nextEl: `.pagination-right-0`,
-            prevEl: `.pagination-left-0`,
-        },
-        on: {
-            imagesReady: function () {
-                swiper.update(); // يحدث السلايدر بعد تحميل الصور
-            },
-        },
-        pagination: {
-            el: `.pagination-0`,
-            type: "bullets",
-        },
-        scrollbar: {
-            el: '.swiper-scrollbar-0',
-            draggable: true,
-        },
-        breakpoints: {
-            0: {
-                slidesPerView: 1,
-                spaceBetween: 15,
-            },
-            600: {
-                slidesPerView: 2,
-                spaceBetween: 15,
-            },
-            1024: {
-                slidesPerView: 3,
-                spaceBetween: 20,
-            },
-            1440: {
-                slidesPerView: 4,
-                spaceBetween: 20,
-            },
-            1920: {
-                slidesPerView: 5,
-                spaceBetween: 20,
-            },
-        },
-    });
-},500);
+
+
+
