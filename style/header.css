@@ -1,0 +1,117 @@
+header.special {
+    position: relative;
+    height: 40em;
+    width: 100%;
+}
+header {
+    position: relative;
+} 
+header:not(.special,.movies){
+    margin-bottom: 7em;
+}
+header >  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.375em;
+}
+header  .container .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    
+}
+header  .container .logo img {
+    width: 3.75em;
+    height: 3.75em;
+    object-fit: contain;
+}
+header  .container .logo h3 {
+    color: white;
+    font-family: Manrope;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+header  .container .links {
+    display: flex;
+    align-items: center;
+    gap: 0.875em;
+}
+header  .container .links {
+    border-radius: 4px;
+    background: #0F0F0F;
+    padding: 0.625em 2.5em 0.625em 0.625em;
+    border: 4px solid #1F1F1F;
+}
+header  .container .links a {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 1.125em;
+    color: #BFBFBF;
+    
+}
+header  .container .links a.active {
+    background-color: #1F1F1F;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+header  .container  .icons {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+header  .container  .icons i {
+    color: white;
+    font-size: 1.56em;
+}
+header  .container .icon-mobile {
+    display: none;
+    border-radius: 6px;
+    border: 3px solid #262626;
+    background-color: #1A1A1A;
+    padding: 0.75em;
+    cursor: pointer;
+}
+
+
+header .menu-side-bar {
+    background-color: #1F1F1F;
+    width: 20em;
+    height: 25em;
+    position: fixed;
+    right: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-block: 3em;
+    padding-inline: 3em;
+    gap: 3em;
+    transform: translatex(calc(10px + 100%));
+    transition: 0.5s;
+    z-index: 30;
+}
+header .menu-side-bar  a {
+    color: #999999;
+    font-family: Manrope;
+    font-size: 1.5em;
+    transition: 0.5s;
+}
+header .menu-side-bar  a.active-link-menu {
+    color: #E50000;
+}
+header .menu-side-bar  a:hover {
+    padding-left: 0.5em;
+}
+header .menu-side-bar.active-menu {
+    transform: translatex(0);
+}

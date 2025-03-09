@@ -1,0 +1,49 @@
+.ads {
+    margin-bottom: 5em;
+}
+.ads .container .content{
+    background-image: url(../images/ads-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    padding-inline: 3.75em;
+    padding-block: 6.25em;
+
+}
+.ads .container .content .text h3 {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 1.75em;
+    color: white;
+    margin-bottom: 0.625em;
+}
+.ads .container .content .text p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #999999;
+}
+.ads .container .content .btn button {
+    background-color: #E50000;
+    border-radius: 8px;
+    padding: 0.875em 1.5em;
+    border: 0;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 0.875em;
+    color: white;
+}
+@media(max-width: 767px) {
+    .ads .container .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+        text-align: center;
+    }
+}
