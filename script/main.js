@@ -564,7 +564,7 @@ let swiperEleven = new Swiper(".swiper-11", {
 
 // Start FAQS
 let faqRow = document.querySelectorAll(".questions .row");
-console.log(faqRow);
+
 faqRow.forEach((row) => {
     row.onclick = function() {
         row.classList.toggle("faq-active");
@@ -712,27 +712,14 @@ function renderPlans() {
     
 }
 renderPlans();
-// End Plans 
-// displaing movies in home page
-async function getMoviesInHome() {
-    try {
-        let data = await fetch("http://localhost:8080/movies");
-        let movies = await data.json();
-        console.log( movies);
-        displayMoviesInHome(movies);
-    }
-    catch(error) {
-        console.log(error);
-    }
-    
-}
 
+// End Plans 
 function displayMoviesInHome(movies) {
     let temp = ``;
     movies.map((movie) => {
         temp += `<div class="swiper-slide box">
         <div class="image">
-        <img src = "${movie.gallary}" loading="lazy">
+            <img src="${movie.gallary}" alt="">
         </div>
         <div class="info">
             <h3>${movie.title}</h3>
@@ -743,9 +730,49 @@ function displayMoviesInHome(movies) {
     })
     
     
-        document.querySelector(".categories .swiper-wrapper").innerHTML = temp;
+        document.querySelector(".categories .swiper-wrapper").innerHTML += temp;
+        
+        
+}
+
+function displayMoviesInMovies(movies) {
+    let temp = ``;
+    movies.map((movie) => {
+    temp += `
+    <div class="swiper-slide">
+    <div class="card">
+            <div class="image">
+                <img src="${movie.gallary}" alt="">
+            </div>
+            <div class="info">
+                <span>${movie.title}</span>
+                <i class="fa-solid fa-arrow-right arrow"></i>
+            </div>
+        </div>
+    </div>
+    `;
+    });
+    console.log(document.querySelector(".geners-swiper"));
+    // document.querySelector(".geners-swiper").innerHTML += temp;
+}
+
+
+// // adding movies on movies&shows page 
+
+// displaing movies in home page
+async function getMoviesInHome() {
+    try {
+        let data = await fetch("http://localhost:8080/movies");
+        let movies = await data.json();
+        localStorage.setItem("geners",JSON.stringify(movies));
+        displayMoviesInHome(JSON.parse(localStorage.getItem("geners")));
+        displayMoviesInMovies(JSON.parse(localStorage.getItem("geners")));
+    }
+    catch(error) {
+        console.log(error);
+    }
+    
 }
 getMoviesInHome();
-
 
 
