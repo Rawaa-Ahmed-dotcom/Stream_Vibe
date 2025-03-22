@@ -60,11 +60,9 @@
                             <div class="phone">
                                 <label for="phone">Phone Number</label>
                                 <div class="phone-input">
-                                    <select>
-                                        <option value="">
-                                            <img src="./images/indian.png">
-                                        </option>
-                                    </select>
+                                    <div class="flags active-flags">
+                                        <ul name="country" id="country" class="active-country"></ul>
+                                    </div>
                                     <input type="phone" placeholder="Enter Phone Number" id="phone">
                                 </div>
                             </div>
@@ -90,7 +88,7 @@
         </section>
         <section class="questions">
             <div class="container">
-                <div class="header">
+                <div class="header custom-section-header">
                     <div class="text">
                         <h2>Explore our wide variety of categories</h2>
                         <p>Whether you're looking for a comedy to make you laugh, a drama to make you think, or a documentary to learn something new</p>
@@ -99,80 +97,7 @@
                         <button>Add a Question</button>
                     </div>
                 </div>
-                    <div class="rows">
-                        <div class="row">
-                            <div class="text">
-                                <h3>What is StreamVibe?</h3>
-                                <p class="active">StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-solid fa-minus"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="text">
-                                <h3>What is StreamVibe?</h3>
-                                <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-solid fa-plus"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="text">
-                                <h3>What is StreamVibe?</h3>
-                                <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-solid fa-plus"></i>
-                            </div>
-                        </div>
-                        <div class="row special">
-                            <div class="text">
-                                <h3>What is StreamVibe?</h3>
-                                <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-solid fa-plus"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="text">
-                                <h3>What is StreamVibe?</h3>
-                                <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-solid fa-plus"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="text">
-                                <h3>What is StreamVibe?</h3>
-                                <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-solid fa-plus"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="text">
-                                <h3>What is StreamVibe?</h3>
-                                <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-solid fa-plus"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="text">
-                                <h3>What is StreamVibe?</h3>
-                                <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-solid fa-plus"></i>
-                            </div>
-                        </div>
-                    </div>
+                <div class="rows"></div>
         </section>
         <section class="ads">
             <div class="container">
@@ -239,6 +164,7 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./script/main.js"></script>
+    <script src="./script/main.js" type="module"></script>
+    
 </body>
 </html>

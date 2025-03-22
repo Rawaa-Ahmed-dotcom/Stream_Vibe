@@ -33,51 +33,17 @@
     <main>
         <section class="plans">
             <div class="container">
-                <div class="header">
+                <div class="plans-header custom-section-header">
                     <div class="text">
                         <h2>Choose the plan that's right for you</h2>
                         <p>Join StreamVibe and select from our flexible subscription options tailored to suit your viewing preferences. Get ready for non-stop entertainment!</p>
                     </div>
                     <div class="btn">
-                        <button class="active">Monthly</button>
-                        <button>Yearly</button>
+                        <button class="active" data-slug = "monthly">Monthly</button>
+                        <button  data-slug = "yearly">Yearly</button>
                     </div>
                 </div>
-                <div class="content">
-                    <div class="box">
-                        <div class="info">
-                            <h3>Basic Plan</h3>
-                            <p>Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.</p>
-                        </div>
-                            <h2 class="price">$9.99<span>/month</span></h2>
-                        <div class="options">
-                            <button>Start Free Trial</button>
-                            <button>Choose Plan</button>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="info">
-                            <h3>Standard Plan</h3>
-                            <p>Access to a wider selection of movies and shows, including most new releases and exclusive content</p>
-                        </div>
-                            <h2 class="price">$12.99<span>/month</span></h2>
-                        <div class="options">
-                            <button>Start Free Trial</button>
-                            <button>Choose Plan</button>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="info">
-                            <h3>Premium Plan</h3>
-                            <p>Access to a widest selection of movies and shows, including all new releases and Offline Viewing</p>
-                        </div>
-                            <h2 class="price">$14.99<span>/month</span></h2>
-                        <div class="options">
-                            <button>Start Free Trial</button>
-                            <button>Choose Plan</button>
-                        </div>
-                    </div>
-                </div>
+                <div class="plans-content"></div>
             </div>
         </section>
         <div class="compare">
@@ -290,6 +256,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./script/main.js"></script>
+    <script src="./script/main.js" type="module"></script>
 </body>
 </html>

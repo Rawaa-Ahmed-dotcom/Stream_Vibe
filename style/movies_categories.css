@@ -1,0 +1,110 @@
+* {
+    font-family: Manrope;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 3em;
+    margin-bottom: 3em;
+}
+.navigation .links {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.navigation .links span {
+    color: #262626;
+    font-size: 3em;
+    display: block;
+}
+.navigation .links a {
+    color: #999999;
+    text-decoration: none;
+    font-size: 3em;
+}
+.movie_category_branch {
+    border: 1px solid #262626;
+    border-radius: 12px;
+    padding: 2em;
+}
+.movie_category_branch_content {
+    position: relative;
+}
+.movie_category_branch_title {
+    background-color: #E50000;
+    color: white;
+    font-size: 1.4em;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 0.5em 0.8em;
+    position: absolute;
+    top: -2.5em;
+    
+}
+.movie_category_branch_content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(20em ,1fr));
+    gap: 2em;
+}
+.movie_category_branch_content .single_movie {
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 1em;
+    position: relative;
+    max-height: 40em;
+
+}
+.movie_category_branch_content .single_movie .single_movie_image {
+    height: 20em;
+}
+.movie_category_branch_content .single_movie img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.movie_category_branch_content .single_movie .single_movie_name {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-block: 0.5em;
+    letter-spacing: 1px;
+    margin-block: 1em;
+    display: block;
+    text-decoration: none;
+
+}
+.single_movie_info {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.movie_category_branch_content .single_movie .single_movie_year {
+    background-color: #999999;
+    color: black;
+    font-size: 1.2em;
+    padding: 0.4em 0.6em;
+    border-radius: 8px;
+}
+.movie_category_branch_content .single_movie .single_movie_rate {
+    background-color: #999999;
+    color: black;
+    font-size: 1.2em;
+    padding: 0.4em 0.5em;
+    border-radius: 8px;
+    
+}
+.single_movie_tags {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-block: 1em;
+}
+.single_movie_tags span {
+    background-color: #E50000;
+    color: white;
+    font-size: 0.9em;
+    padding: 0.4em 0.6em;
+    border-radius: 8px;
+}
