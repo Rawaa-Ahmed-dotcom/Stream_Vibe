@@ -1,0 +1,64 @@
+.icons-swiper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4em;
+    background-color: #0F0F0F;
+    border: 1px solid #1F1F1F;
+    border-radius: 12px;
+    padding: 0.6em;
+    width: fit-content;
+}
+.icons-swiper  > i {
+    color: white;
+}
+.icons-swiper i.arrow {
+    background-color: #1A1A1A;
+    border: 1px solid #1F1F1F;
+    padding: 0.875em;
+    border-radius: 8px;
+}
+.icons-swiper > div {
+    display: flex;
+    gap: 0.1em !important;
+}
+.icons-swiper > div span {
+    background-color: #1A1A1A;
+    display: block;
+    width: 1em;
+    height: 0.5em;
+    border-radius: 2px;
+}
+.icons-swiper > div span.swiper-pagination-bullet-active {
+    background-color: #E50000;
+}
+span.swiper-scrollbar {
+    display: none;
+    position: absolute;
+    left: 50% !important;
+    transform: translatex(-50%) !important;
+    background-color: #333333;
+    border-radius: 20px;
+    width: 4.9em !important; 
+    height: 5px;
+    bottom: 0em !important;
+}
+span.swiper-scrollbar .swiper-scrollbar-drag {
+    position: absolute;
+    height: 4px;
+    width: 3px;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: #E50000;
+}
+@media(max-width: 1024px) {
+    span.swiper-scrollbar {
+        display: block;
+    }
+}
+@media (max-width: 767px) {
+    .icons-swiper {
+        display: none;
+    }
+}

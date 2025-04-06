@@ -1,0 +1,2672 @@
+{
+    "geners" : [
+        {   
+            "id" : 1,
+            "geners_image" : "../images/categories-image-1.png",
+            "name" : "Geners",
+            "slug" : "geners-action",
+            "category" : "Action",
+            "movies" : [
+                {
+            "reviews" : [
+                {   
+                    "id" : 1,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 2,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 3,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 4,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                }
+            ],
+            "languages" : [
+                "English",
+                "Hindi",
+                "Tamil",
+                "Telugu",
+                "Kannada"
+            ],
+            "director" : {
+                "name" : "Rishab Shetty",
+                "image" : "../images/cast-1.png",
+                "location" : "From India"
+            },
+            "music" : {
+                "name" : "Rishab Shetty",
+                "image" : "../images/cast-1.png",
+                "location" : "From India"
+            },
+            "title": "Welcome to the Punch",
+            "description" : "A man is forced to choose between a life of crime and a life of law when he is sent to prison for a crime he did not commit.",
+            "year": 2013,
+            "cast" : [
+                "../images/cast-1.png",
+                "../images/cast-2.png",
+                "../images/cast-3.png", 
+                "../images/cast-4.png",
+                "../images/cast-5.png",
+                "../images/cast-6.png",
+                "../images/cast-7.png",
+                "../images/cast-8.png"  
+            ],
+            "genre": ["Action", "Crime", "Thriller"],
+            "rating": 6.1,
+            "poster": "../images/Welcome_to_the_Punch_UK_poster.jpg",
+            "slug" : "welcome-to-the-punch"
+            },
+            {
+            "title": "Black Panther",
+            "year": 2018,
+            "genre": ["Action", "Adventure", "Sci-Fi"],
+            "rating": 7.3,
+            "poster": "../images/images.jpeg",
+            "slug" : "black-panther"
+                },
+                {
+            "title": "The Expendables 2",
+            "year": 2012,
+            "genre": ["Action", "Thriller"],
+            "rating": 6.6,
+            "poster": "../images/maxresdefault.jpg",
+            "slug" : "the-expendables-2"
+                },
+                {
+            "title": "Batman Begins",
+            "year": 2009,
+            "genre": ["Action", "Thriller"],
+            "rating": 5,
+            "poster": "../images/batman-1.avif",
+            "slug" : "batman-begins"
+                }
+            ]
+        },
+        {   "name" : "Geners",
+            "id" : 2,
+            "slug" : "geners-Adventure",
+            "geners_image" : "../images/categories-image-2.png",
+            "category" : "Adventure",
+            "movies" : [
+                {
+                    "title": "Archer",
+                    "year": 2022,
+                    "genre": ["Adventure", "Action"],
+                    "rating": 7.5,
+                    "poster": "../images/adventure-1.jpeg",
+                    "slug": "archer"
+                },
+                {
+                    "title": "Jungle Cruise",
+                    "year": 2021,
+                    "genre": ["Adventure", "Fantasy"],
+                    "rating": 6.8,
+                    "poster": "../images/adventure-2.jpeg",
+                    "slug": "jungle-cruise"
+                },
+                {
+                    "title": "Jack",
+                    "year": 2020,
+                    "genre": ["Mystery", "Drama"],
+                    "rating": 7.1,
+                    "poster": "../images/adventure-3.jpeg",
+                    "slug": "jack"
+                },
+                {
+                    "title": "The Golden",
+                    "year": 2019,
+                    "genre": ["Fantasy", "Drama"],
+                    "rating": 7.3,
+                    "poster": "../images/adventure-4.jpeg",
+                    "slug": "the-golden"
+                }
+                
+            ]
+        },
+        {   "name" : "Geners",
+            "id" : 3,
+            "slug" : "geners-Comedy",
+            "geners_image" : "../images/categories-image-3.png",
+            "category" : "Comedy",
+            "movies" : [
+                {
+                "title": "Good Newwz",
+                "year": 2019,
+                "genre": ["Comedy", "Drama"],
+                "rating": 7.0,
+                "poster": "../images/comedy-1.jpeg",
+                "slug": "good-newwz"
+            },
+            {
+                "title": "Central Intelligence",
+                "year": 2016,
+                "genre": ["Action", "Comedy", "Crime"],
+                "rating": 6.3,
+                "poster": "../images/comedy-2.jpeg",
+                "slug": "central-intelligence"
+            },
+            {
+                "title": "Bhool Bhulaiyaa 2",
+                "year": 2022,
+                "genre": ["Comedy", "Horror", "Mystery"],
+                "rating": 6.5,
+                "poster": "../images/comedy-3.jpg",
+                "slug": "bhool-bhulaiyaa-2"
+            },
+            {
+                "title": "Udanchhoo",
+                "year": 2018,
+                "genre": ["Comedy", "Crime", "Drama"],
+                "rating": 5.2,
+                "poster": "../images/comedy-4.jpg",
+                "slug": "udanchhoo"
+            }
+        ]
+        },
+        {
+            "id" : 4,
+            "name" : "Geners",
+            "slug" : "geners-Drama",
+            "geners_image" : "../images/categories-image-4.png",
+            "category" : "Drama",
+            "movies" : [
+                {
+                    "title": "Family Drama",
+                    "year": 2021,
+                    "rating": 6.8,
+                    "poster": "../images/drama-1.jpeg",
+                    "genre": ["Thriller", "Drama"],
+                    "slug" : "family-drama"
+                },
+                {
+                    "title": "Joker",
+                    "year": 2019,
+                    "rating": 8.4,
+                    "poster": "../images/drama-2.jpeg",
+                    "genre": ["Crime", "Drama"],
+                    "slug" : "joker"
+                },
+                {
+                    "title": "Unknown Movie 1",
+                    "year": 2022,
+                    "rating": 4,
+                    "poster": "../images/drama-4.jpeg",
+                    "genre": ["Horror", "Thriller"],
+                    "slug" : "unknown-movie-1"
+                },
+                {
+                    "title": "Bholaa",
+                    "year": 2023,
+                    "rating": 7.0,
+                    "poster": "../images/drama-3.jpeg",
+                    "genre": ["Action", "Drama"],
+                    "slug" : "bholaa"
+                }
+            ]
+        },
+        {
+            "id" : 5,
+            "name" : "Geners",
+            "slug" : "geners-Horror",
+            "geners_image" : "../images/categories-image-5.png",
+            "category" : "Horror",
+            "movies" : [
+                {
+                    "title": "US",
+                    "year": 2021,
+                    "rating": 6.8,
+                    "poster": "../images/horror-4.jpeg",
+                    "genre": ["Thriller", "Drama"],
+                    "slug" : "us"
+                },
+                {
+                    "title": "Scream 5",
+                    "year": 2019,
+                    "rating": 8.4,
+                    "poster": "../images/horror-1.jpeg",
+                    "genre": ["Crime", "Drama"],
+                    "slug" : "scream-5"
+                },
+                {
+                    "title": "The Human Centipede",
+                    "year": 2022,
+                    "rating": 4,
+                    "poster": "../images/horror-3.jpeg",
+                    "genre": ["Horror", "Thriller"],
+                    "slug" : "the-human-centipede"
+                },
+                {
+                    "title": "the FleshEater",
+                    "year": 2023,
+                    "rating": 7.0,
+                    "poster": "../images/horror-2.jpeg",
+                    "genre": ["Action", "Drama"],
+                    "slug" : "the-fleshEater"
+                }
+            ]
+        }
+    ],
+    "top" : [
+        {
+            "id" : 1,
+            "top_image" : "../images/top-1.png",
+            "category" : "Action",
+            "name" : "tops",
+            "slug" : "tops-action",
+            "movies" : [
+                {
+                    "title": "Freedom",
+                    "description": "Never push a man too far.",
+                    "year": 2024,
+                    "genre": ["Action", "Thriller"],
+                    "rating": 7.2,
+                    "poster": "../images/top-action-1.jpeg",
+                    "slug": "freedom"
+                },
+                {
+                    "title": "Baietii Rai Pe Viata",
+                    "description": "Two detectives reunite for one last mission.",
+                    "year": 2020,
+                    "genre": ["Action", "Comedy", "Crime"],
+                    "rating": 6.6,
+                    "poster": "../images/top-action-2.jpeg",
+                    "slug": "baietii-rai-pe-viata"
+                },
+                {
+                    "title": "Unknown Movie",
+                    "description": "A man holding a gun fights against his enemies.",
+                    "year": 2023,
+                    "genre": ["Action", "Crime"],
+                    "rating": 6.8,
+                    "poster": "../images/top-action-3.jpeg",
+                    "slug": "unknown-movie"
+                },
+                {
+                    "title": "Iron Hero",
+                    "description": "A high-tech warrior fights against an evil force.",
+                    "year": 2022,
+                    "genre": ["Action", "Sci-Fi"],
+                    "rating": 7.5,
+                    "poster": "../images/top-action-4.jpeg",
+                    "slug": "iron-hero"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "top_image" : "../images/top-2.png",
+            "category" : "Adventure",
+            "name" : "tops",
+            "slug" : "tops-adventure",
+            "movies" : [
+                {
+                "title": "Archer",
+                "description": "A skilled archer sets out on a dangerous journey to uncover the truth behind an ancient prophecy.",
+                "year": 2022,
+                "genre": ["Adventure", "Action"],
+                "rating": 7.5,
+                "poster": "../images/adventure-1.jpeg",
+                "slug": "archer"
+                },
+                {
+                "title": "Jungle Cruise",
+                "description": "A riverboat captain and a scientist embark on a wild adventure deep into the Amazon jungle to find a mystical tree.",
+                "year": 2021,
+                "genre": ["Adventure", "Fantasy"],
+                "rating": 6.8,
+                "poster": "../images/adventure-2.jpeg",
+                "slug": "jungle-cruise"
+                },
+                {
+                "title": "Immortals",
+                "description": "A warrior chosen by the gods fights to stop a ruthless king from unleashing chaos upon the world.",
+                "year": 2011,
+                "genre": ["Action", "Fantasy", "Drama"],
+                "rating": 6.0,
+                "poster": "../images/top-adventure-3.jpeg",
+                "slug": "immortals"
+                },
+                {
+                "title": "Hansel & Gretel: Witch Hunters",
+                "description": "After surviving a childhood trauma, siblings Hansel and Gretel become expert witch hunters, facing their most dangerous enemy yet.",
+                "year": 2013,
+                "genre": ["Action", "Fantasy", "Horror"],
+                "rating": 6.1,
+                "poster": "../images/top-adventure-4.jpeg",
+                "slug": "hansel-and-gretel-witch-hunters"
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "top_image" : "../images/top-3.png",
+            "category" : "Comedy",
+            "name" : "tops",
+            "slug" : "tops-comedy",
+            "movies" : [
+                {
+                "title": "Central Intelligence",
+                "description": "A mild-mannered accountant is lured into the world of international espionage by an old high school friend who is now a lethal CIA agent.",
+                "year": 2016,
+                "genre": ["Action", "Comedy", "Crime"],
+                "rating": 6.3,
+                "poster": "../images/comedy-2.jpeg",
+                "slug": "central-intelligence"
+                },
+                {
+                "title": "Jaanu",
+                "description": "A man and woman reunite years after their love story ended, exploring memories of the past and how life has changed them.",
+                "year": 2020,
+                "genre": ["Drama", "Romance"],
+                "rating": 7.8,
+                "poster": "../images/top-comedy-2.jpeg",
+                "slug": "jaanu"
+                },
+                {
+                "title": "MAIDS",
+                "description": "A dark comedy about the lives and struggles of a group of maids working for the elite class in a bustling city.",
+                "year": 2022,
+                "genre": ["Comedy", "Drama"],
+                "rating": 6.5,
+                "poster": "../images/top-comedy-3.jpeg",
+                "slug": "maids"
+                },
+                {
+                "title": "Pegal Banti",
+                "description": "A hilarious courtroom drama following a quirky lawyer and his unusual approach to winning impossible cases.",
+                "year": 2023,
+                "genre": ["Comedy", "Drama"],
+                "rating": 6.9,
+                "poster": "../images/top-comedy-4.jpeg",
+                "slug": "pegal-banti"
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "top_image" : "../images/top-4.png",
+            "category" : "Drama",
+            "name" : "tops",
+            "slug" : "tops-drama",
+            "movies" : [
+                {
+                    "title": "The Dark Society",
+                    "year": 2022,
+                    "rating": 6.8,
+                    "poster": "/images/top-drama-1.jpeg",
+                    "genre": ["Thriller", "Mystery"],
+                    "slug": "the-dark-society"
+                },
+                {
+                    "title": "The FleshEater",
+                    "year": 2023,
+                    "rating": 7.0,
+                    "poster": "/images/horror-3.jpeg",
+                    "genre": ["Action", "Drama"],
+                    "slug": "the-fleshEater"
+                },
+                {
+                    "title": "The Hole",
+                    "year": 2021,
+                    "rating": 6.5,
+                    "poster": "/images/top-drama-3.jpeg",
+                    "genre": ["Drama", "Romance"],
+                    "slug": "the-hole"
+                },
+                {
+                    "title": "Tenet",
+                    "year": 2020,
+                    "rating": 7.8,
+                    "poster": "/images/top-drama-4.jpeg",
+                    "genre": ["Sci-Fi", "Action"],
+                    "slug": "tenet"
+                }
+            ]
+        }
+    ],
+    "trending" : [
+        {
+            "id" : 1,
+            "trending_image" : "../images/trend-1.png",
+            "duration" : "1h 30min",
+            "views" : "2K",
+            "slug" : "morbius"
+        },
+        {
+            "id" : 2,
+            "trending_image" : "../images/trend-2.png",
+            "duration" : "1h 57min",
+            "views" : "1.5K",
+            "slug" : "kisi-ka-bhai-kisi-ki-jaan"
+        },
+        {
+            "id" : 3,
+            "trending_image" : "../images/trend-3.png",
+            "duration" : "2h 10min",
+            "views" : "1.8K",
+            "slug" : "suraj-pe-mangal-bhari"
+        },
+        {
+            "id" : 4,
+            "trending_image" : "../images/trend-4.png",
+            "duration" : "2h 20min",
+            "views" : "3K",
+            "slug" : "pathan"
+        },
+        {
+            "id" : 5,
+            "trending_image" : "../images/trend-5.png",
+            "duration" : "1h 42min",
+            "views" : "5K",
+            "slug" : "ant-man"
+        }
+
+    ],
+    "releases" : [
+        {
+            "id" : 1,
+            "releases_image" : "../images/release-1.png",
+            "date" : "14 April 2023",
+            "slug" : "adipurush"
+        },
+        {
+            "id" : 2,
+            "releases_image" : "../images/release-2.png",
+            "date" : "22 April 2023",
+            "slug" : "the-foreigner"
+        },
+        {
+            "id" : 3,
+            "releases_image" : "../images/release-3.png",
+            "date" : "13 April 2023",
+            "slug" : "sin-city"
+        },
+        {
+            "id" : 4,
+            "releases_image" : "../images/release-4.png",
+            "date" : "19 April 2023",
+            "slug" : "the-tomorrow-war"
+        },
+        {
+            "id" : 5,
+            "releases_image" : "../images/release-5.png",
+            "date" : " 11 April 2023",
+            "slug" : "misfire"
+        }
+    ],
+    "must_watch" : [
+        {
+            "id" : 1,
+            "must_watch_image" : "../images/must-1.png",
+            "duration" : "1h 57min",
+            "rate" : 4.5,
+            "slug" : "kantara"
+        },
+        {
+            "id" : 2,
+            "must_watch_image" : "../images/must-2.png",
+            "duration" : "1h 30min",
+            "rate" : 4,
+            "slug" : "pushpa"
+        },
+        {
+            "id" : 3,
+            "must_watch_image" : "../images/must-3.png",
+            "duration" : "1h 42min",
+            "rate" : 4.5,
+            "slug" : "blade-runner"
+        },
+        {
+            "id" : 4,
+            "must_watch_image" : "../images/must-4.png",
+            "duration" : "2h 10min",
+            "rate" : 4,
+            "slug" : "adipurush"
+        }
+
+    ],
+    "questions" : [
+        {
+            "number" : "01",
+            "question" : "What is StreamVibe?",
+            "answer" : "StreamVibe is a streaming service that allows you to watch movies and shows on demand."
+        },
+        {
+            "number" : "02",
+            "question" : "How much does StreamVibe cost?",
+            "answer" : "StreamVibe is a streaming service that allows you to watch movies and shows on demand."
+        },
+        {
+            "number" : "03",
+            "question" : "What content is available on StreamVibe?",
+            "answer" : "StreamVibe is a streaming service that allows you to watch movies and shows on demand."
+        },
+        {
+            "number" : "04",
+            "question" : "How can I watch StreamVibe?",
+            "answer" : "StreamVibe is a streaming service that allows you to watch movies and shows on demand."
+        },
+        {
+            "number" : "05",
+            "question" : "How do I sign up for StreamVibe?",
+            "answer" : "StreamVibe is a streaming service that allows you to watch movies and shows on demand."
+        },
+        {
+            "number" : "06",
+            "question" : "What is the StreamVibe free trial?",
+            "answer" : "StreamVibe is a streaming service that allows you to watch movies and shows on demand."
+        },
+        {
+            "number" : "07",
+            "question" : "How do I contact StreamVibe customer support?",
+            "answer" : "StreamVibe is a streaming service that allows you to watch movies and shows on demand."
+        },
+        {
+            "number" : "08",
+            "question" : "What are the StreamVibe payment methods?",
+            "answer" : "StreamVibe is a streaming service that allows you to watch movies and shows on demand."
+        }
+    ],
+    "monthlyPlans" : [
+        {
+            "id" : 1,
+            "type" : "Basic Plan",
+            "price" : "$9.99",
+            "duration" : "month",
+            "slug" : "monthly",
+            "discription" : "Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles."
+        },
+        {
+            "id" : 2,
+            "type" : "Standard Plan",
+            "duration" : "month",
+            "slug" : "monthly",
+            "price" : "$12.99",
+            "discription" : "Access to a wider selection of movies and shows, including most new releases and exclusive content"
+        },
+        {
+            "id" : 3,
+            "type" : "Premium Plan",
+            "duration" : "month",
+            "slug" : "monthly",
+            "price" : "$14.99",
+            "discription" : "Access to a widest selection of movies and shows, including all new releases and Offline Viewing"
+        }
+    ],
+    "yearlyPlans" : [
+        {
+            "id" : 1,
+            "type" : "Basic Plan",
+            "duration" : "year",
+            "slug" : "Yearly",
+            "price" : "$9.99",
+            "discription" : "Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles."
+        },
+        {
+            "id" : 2,
+            "type" : "Standard Plan",
+            "duration" : "year",
+            "slug" : "yearly",
+            "price" : "$12.99",
+            "discription" : "Access to a wider selection of movies and shows, including most new releases and exclusive content"
+        },
+        {
+            "id" : 3,
+            "type" : "Premium Plan",
+            "duration" : "year",
+            "slug" : "yearly",
+            "price" : "$14.99",
+            "discription" : "Access to a widest selection of movies and shows, including all new releases and Offline Viewing"
+        }
+    ],
+    "landingImages" : [
+        {
+            "id" : 1,
+            "image" : "../images/landing.png",
+            "title" : "Avengers : Endgame",
+            "description" : "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen"
+        },
+        {
+            "id" : 2,
+            "image" : "../images/landing-1.jpeg",
+            "title" : "Avengers : Endgame",
+            "description" : "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen"
+        },
+        {
+            "id" : 3,
+            "image" : "../images/landing-2.jpeg",
+            "title" : "Avengers : Endgame",
+            "description" : "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen"
+        },
+        {
+            "id" : 4,
+            "image" : "../images/landing-3.jpeg",
+            "title" : "Avengers : Endgame",
+            "description" : "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen"
+        }
+    ],
+    "movies" : [
+        {
+    "reviews" : [
+        {   
+            "id" : 1,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 2,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 3,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 4,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        }
+    ],
+    "languages" : [
+        "English",
+        "Hindi",
+        "Tamil",
+        "Telugu",
+        "Kannada"
+    ],
+    "director" : {
+        "name" : "Rishab Shetty",
+        "image" : "../images/cast-1.png",
+        "location" : "From India"
+    },
+    "music" : {
+        "name" : "Rishab Shetty",
+        "image" : "../images/cast-1.png",
+        "location" : "From India"
+    },
+    "cast" : [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpx6ZlAWYoSNKX_8_sgwbQgxUmJiA7TsI0AUR9WIqltAF7FphjYGD5auY&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS11maSa7VIMDz8LV_XN5Lv-CsYFh_hi2LsnHeln1vdrxcDbm55BxMOdDM&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE1g1gQ2NW9n5lC7Jx120X7MsoAQL85mC9_xo9rZ95DFqc6yO08laWbxc&s=10", 
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7L3Y5c1sjR2lqZkZbzNFW7-I6vo6ZtYQb_vnStMJom6KMFfvZWpV4SfY&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRse1R2Rc8xiq4nF3dLoYIwWXi2JHQOscns1X0HJWXmkj8xrEcrGdG9Xs5X&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5-lz2xEfNM_x6u1a0kyTYeG6V0QAr9fJC5ACxG_xzV-wwGiGHE1pRQRI&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFz1YFb28ond5iR-AI9_ZyTc8irh2deq-mSj0y6yg&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQszw7_B4fvsEN0Q7Dd9PcnMV63G_3xkEa5cNf1UydAKmSP4E7VHA6XSA&s=10"  
+    ],
+    "description" : "A man is forced to choose between a life of crime and a life of law when he is sent to prison for a crime he did not commit.",
+    "title": "Welcome to the Punch",
+    "year": 2013,
+    "genre": ["Action", "Crime", "Thriller"],
+    "rating": 6.1,
+    "poster": "https://static01.nyt.com/images/2013/03/27/arts/27WELCOME/27WELCOME-superJumbo.jpg",
+    "slug" : "welcome-to-the-punch"
+    
+        },
+        {
+    "title": "Black Panther",
+    "year": 2018,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": 7.3,
+    "poster": "../images/images.jpeg",
+    "slug" : "black-panther",
+    "reviews" : [
+        {   
+            "id" : 1,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 2,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 3,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 4,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        }
+    ],
+    "languages" : [
+        "English",
+        "Hindi",
+        "Tamil",
+        "Telugu",
+        "Kannada"
+    ],
+    "director" : {
+        "name" : "Rishab Shetty",
+        "image" : "../images/cast-1.png",
+        "location" : "From India"
+    },
+    "music" : {
+        "name" : "Rishab Shetty",
+        "image" : "../images/cast-1.png",
+        "location" : "From India"
+    },
+    "cast" : [
+        "../images/cast-1.png",
+        "../images/cast-2.png",
+        "../images/cast-3.png", 
+        "../images/cast-4.png",
+        "../images/cast-5.png",
+        "../images/cast-6.png",
+        "../images/cast-7.png",
+        "../images/cast-8.png"  
+    ],
+    "description" : "A man is forced to choose between a life of crime and a life of law when he is sent to prison for a crime he did not commit."
+        },
+        {
+    "title": "The Expendables 2",
+    "year": 2012,
+    "genre": ["Action", "Thriller"],
+    "rating": 6.6,
+    "poster": "../images/maxresdefault.jpg",
+    "slug" : "the-expendables-2"
+    ,
+    "reviews" : [
+        {   
+            "id" : 1,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 2,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 3,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 4,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        }
+    ],
+    "languages" : [
+        "English",
+        "Hindi",
+        "Tamil",
+        "Telugu",
+        "Kannada"
+    ],
+    "director" : {
+        "name" : "Rishab Shetty",
+        "image" : "../images/cast-1.png",
+        "location" : "From India"
+    },
+    "music" : {
+        "name" : "Rishab Shetty",
+        "image" : "../images/cast-1.png",
+        "location" : "From India"
+    },
+    "cast" : [
+        "../images/cast-1.png",
+        "../images/cast-2.png",
+        "../images/cast-3.png", 
+        "../images/cast-4.png",
+        "../images/cast-5.png",
+        "../images/cast-6.png",
+        "../images/cast-7.png",
+        "../images/cast-8.png"  
+    ],
+    "description" : "A man is forced to choose between a life of crime and a life of law when he is sent to prison for a crime he did not commit."
+        },
+        {
+    "title": "Batman Begins",
+    "year": 2009,
+    "genre": ["Action", "Thriller"],
+    "rating": 5,
+    "poster": "../images/batman-1.avif",
+    "slug" : "batman-begins"
+    ,
+    "reviews" : [
+        {   
+            "id" : 1,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 2,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 3,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        },
+        {   
+            "id" : 4,
+            "name" : "John Doe",
+            "location" : "New York",
+            "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        }
+    ],
+    "languages" : [
+        "English",
+        "Hindi",
+        "Tamil",
+        "Telugu",
+        "Kannada"
+    ],
+    "director" : {
+        "name" : "Rishab Shetty",
+        "image" : "../images/cast-1.png",
+        "location" : "From India"
+    },
+    "music" : {
+        "name" : "Rishab Shetty",
+        "image" : "../images/cast-1.png",
+        "location" : "From India"
+    },
+    "cast" : [
+        "../images/cast-1.png",
+        "../images/cast-2.png",
+        "../images/cast-3.png", 
+        "../images/cast-4.png",
+        "../images/cast-5.png",
+        "../images/cast-6.png",
+        "../images/cast-7.png",
+        "../images/cast-8.png"  
+    ],
+    "description" : "A man is forced to choose between a life of crime and a life of law when he is sent to prison for a crime he did not commit."
+        },
+        {
+            "title": "Baietii Rai Pe Viata",
+            "description": "Two detectives reunite for one last mission.",
+            "year": 2020,
+            "genre": ["Action", "Comedy", "Crime"],
+            "rating": 6.6,
+            "poster": "../images/top-action-2.jpeg",
+            "slug": "baietii-rai-pe-viata",
+            "reviews" : [
+                {   
+                    "id" : 1,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 2,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 3,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 4,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                }
+            ],
+            "languages" : [
+                "English",
+                "Hindi",
+                "Tamil",
+                "Telugu",
+                "Kannada"
+            ],
+            "director" : {
+                "name" : "Rishab Shetty",
+                "image" : "../images/cast-1.png",
+                "location" : "From India"
+            },
+            "music" : {
+                "name" : "Rishab Shetty",
+                "image" : "../images/cast-1.png",
+                "location" : "From India"
+            },
+            "cast" : [
+                "../images/cast-1.png",
+                "../images/cast-2.png",
+                "../images/cast-3.png", 
+                "../images/cast-4.png",
+                "../images/cast-5.png",
+                "../images/cast-6.png",
+                "../images/cast-7.png",
+                "../images/cast-8.png"  
+            ]
+        },
+        {
+            "title": "Freedom",
+            "description": "Never push a man too far.",
+            "year": 2024,
+            "genre": ["Action", "Thriller"],
+            "rating": 7.2,
+            "poster": "../images/top-action-1.jpeg",
+            "slug": "freedom",
+            "reviews" : [
+                {   
+                    "id" : 1,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 2,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 3,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 4,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                }
+            ],
+            "languages" : [
+                "English",
+                "Hindi",
+                "Tamil",
+                "Telugu",
+                "Kannada"
+            ],
+            "director" : {
+                "name" : "Rishab Shetty",
+                "image" : "../images/cast-1.png",
+                "location" : "From India"
+            },
+            "music" : {
+                "name" : "Rishab Shetty",
+                "image" : "../images/cast-1.png",
+                "location" : "From India"
+            },
+            "cast" : [
+                "../images/cast-1.png",
+                "../images/cast-2.png",
+                "../images/cast-3.png", 
+                "../images/cast-4.png",
+                "../images/cast-5.png",
+                "../images/cast-6.png",
+                "../images/cast-7.png",
+                "../images/cast-8.png"  
+            ]
+        },
+        {
+            "title": "Unknown Movie",
+            "description": "A man holding a gun fights against his enemies.",
+            "year": 2023,
+            "genre": ["Action", "Crime"],
+            "rating": 6.8,
+            "poster": "../images/top-action-3.jpeg",
+            "slug": "unknown-movie",
+            "reviews" : [
+                {   
+                    "id" : 1,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 2,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 3,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 4,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                }
+            ],
+            "languages" : [
+                "English",
+                "Hindi",
+                "Tamil",
+                "Telugu",
+                "Kannada"
+            ],
+            "director" : {
+                "name" : "Rishab Shetty",
+                "image" : "../images/cast-1.png",
+                "location" : "From India"
+            },
+            "music" : {
+                "name" : "Rishab Shetty",
+                "image" : "../images/cast-1.png",
+                "location" : "From India"
+            },
+            "cast" : [
+                "../images/cast-1.png",
+                "../images/cast-2.png",
+                "../images/cast-3.png", 
+                "../images/cast-4.png",
+                "../images/cast-5.png",
+                "../images/cast-6.png",
+                "../images/cast-7.png",
+                "../images/cast-8.png"  
+            ]
+        },
+        {
+            "title": "Iron Hero",
+            "description": "A high-tech warrior fights against an evil force.",
+            "year": 2022,
+            "genre": ["Action", "Sci-Fi"],
+            "rating": 7.5,
+            "poster": "../images/top-action-4.jpeg",
+            "slug": "iron-hero",
+            "reviews" : [
+                {   
+                    "id" : 1,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 2,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 3,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                },
+                {   
+                    "id" : 4,
+                    "name" : "John Doe",
+                    "location" : "New York",
+                    "comment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+                }
+            ],
+            "languages" : [
+                "English",
+                "Hindi",
+                "Tamil",
+                "Telugu",
+                "Kannada"
+            ],
+            "director" : {
+                "name" : "Rishab Shetty",
+                "image" : "../images/cast-1.png",
+                "location" : "From India"
+            },
+            "music" : {
+                "name" : "Rishab Shetty",
+                "image" : "../images/cast-1.png",
+                "location" : "From India"
+            },
+            "cast" : [
+                "../images/cast-1.png",
+                "../images/cast-2.png",
+                "../images/cast-3.png", 
+                "../images/cast-4.png",
+                "../images/cast-5.png",
+                "../images/cast-6.png",
+                "../images/cast-7.png",
+                "../images/cast-8.png"  
+            ]
+        },
+        {
+            "title": "Archer",
+            "description": "A skilled archer embarks on a daring adventure to save his homeland.",
+            "year": 2022,
+            "genre": ["Adventure", "Action"],
+            "rating": 7.5,
+            "poster": "../images/adventure-1.jpeg",
+            "slug": "archer",
+            "reviews": [
+            {
+                "id": 1,
+                "name": "Alice Johnson",
+                "location": "London",
+                "comment": "An amazing adventure with breathtaking action!"
+            },
+            {
+                "id": 2,
+                "name": "Mark Smith",
+                "location": "Berlin",
+                "comment": "Loved the cinematography and fight sequences."
+            }
+            ],
+            "languages": ["English", "Spanish", "French"],
+            "director": {
+            "name": "James Cameron",
+            "image": "../images/director-archer.png",
+            "location": "From USA"
+            },
+            "music": {
+            "name": "Hans Zimmer",
+            "image": "../images/music-archer.png",
+            "location": "From Germany"
+            },
+            "cast": [
+            "../images/cast-1.png",
+            "../images/cast-2.png",
+            "../images/cast-3.png"
+            ]
+        },
+        {
+            "title": "Jungle Cruise",
+            "description": "A thrilling riverboat adventure through a jungle filled with surprises.",
+            "year": 2021,
+            "genre": ["Adventure", "Fantasy"],
+            "rating": 6.8,
+            "poster": "../images/adventure-2.jpeg",
+            "slug": "jungle-cruise",
+            "reviews": [
+            {
+                "id": 1,
+                "name": "David Lee",
+                "location": "Sydney",
+                "comment": "A fun and action-packed jungle experience!"
+            },
+            {
+                "id": 2,
+                "name": "Emma Watson",
+                "location": "Paris",
+                "comment": "Great performances and engaging story."
+            }
+            ],
+            "languages": ["English", "Hindi", "Portuguese"],
+            "director": {
+            "name": "Jaume Collet-Serra",
+            "image": "../images/director-jungle.png",
+            "location": "From Spain"
+            },
+            "music": {
+            "name": "James Newton Howard",
+            "image": "../images/music-jungle.png",
+            "location": "From USA"
+            },
+            "cast": [
+            "../images/cast-4.png",
+            "../images/cast-5.png",
+            "../images/cast-6.png"
+            ]
+        },
+        {
+            "title": "Jack",
+            "description": "A mysterious man uncovers dark secrets in a small town.",
+            "year": 2020,
+            "genre": ["Mystery", "Drama"],
+            "rating": 7.1,
+            "poster": "../images/adventure-3.jpeg",
+            "slug": "jack",
+            "reviews": [
+            {
+                "id": 1,
+                "name": "Sophia Miller",
+                "location": "New York",
+                "comment": "A mind-blowing mystery with a deep storyline."
+            },
+            {
+                "id": 2,
+                "name": "Liam Brown",
+                "location": "Chicago",
+                "comment": "Kept me on the edge of my seat till the end!"
+            }
+            ],
+            "languages": ["English", "Italian", "German"],
+            "director": {
+            "name": "Christopher Nolan",
+            "image": "../images/director-jack.png",
+            "location": "From UK"
+            },
+            "music": {
+            "name": "Ludwig Göransson",
+            "image": "../images/music-jack.png",
+            "location": "From Sweden"
+            },
+            "cast": [
+            "../images/cast-7.png",
+            "../images/cast-8.png",
+            "../images/cast-6.png"
+            ]
+        },
+        {
+            "title": "The Golden",
+            "description": "A mystical journey to uncover the truth behind a legendary artifact.",
+            "year": 2019,
+            "genre": ["Fantasy", "Drama"],
+            "rating": 7.3,
+            "poster": "../images/adventure-4.jpeg",
+            "slug": "the-golden",
+            "reviews": [
+            {
+                "id": 1,
+                "name": "Daniel Carter",
+                "location": "Toronto",
+                "comment": "A magical and visually stunning masterpiece."
+            },
+            {
+                "id": 2,
+                "name": "Olivia Harris",
+                "location": "Madrid",
+                "comment": "The fantasy elements were beautifully crafted!"
+            }
+            ],
+            "languages": ["English", "Mandarin", "Russian"],
+            "director": {
+            "name": "Guillermo del Toro",
+            "image": "../images/director-golden.png",
+            "location": "From Mexico"
+            },
+            "music": {
+            "name": "Alexandre Desplat",
+            "image": "../images/music-golden.png",
+            "location": "From France"
+            },
+            "cast": [
+            "../images/cast-1.png",
+            "../images/cast-2.png",
+            "../images/cast-3.png"
+            ]
+        },
+        {
+            "title": "Good Newwz",
+            "description": "Two couples with the same surname face chaos when their IVF procedures get mixed up.",
+            "year": 2019,
+            "genre": ["Comedy", "Drama"],
+            "rating": 7.0,
+            "poster": "../images/comedy-1.jpeg",
+            "slug": "good-newwz",
+            "reviews": [
+              {
+                "id": 1,
+                "name": "Raj Malhotra",
+                "location": "Mumbai",
+                "comment": "A hilarious yet emotional rollercoaster!"
+              },
+              {
+                "id": 2,
+                "name": "Sophia Lee",
+                "location": "New York",
+                "comment": "Perfect mix of comedy and drama!"
+              }
+            ],
+            "languages": ["Hindi", "English"],
+            "director": {
+              "name": "Raj Mehta",
+              "image": "../images/director-goodnewwz.png",
+              "location": "From India"
+            },
+            "music": {
+              "name": "Tanishk Bagchi",
+              "image": "../images/music-goodnewwz.png",
+              "location": "From India"
+            },
+            "cast": [
+              "../images/cast-1.png",
+              "../images/cast-2.png",
+              "../images/cast-3.png"
+            ]
+        },
+        {
+        "title": "Central Intelligence",
+        "description": "A mild-mannered accountant gets caught up in an international espionage case with his old high school friend.",
+        "year": 2016,
+        "genre": ["Action", "Comedy", "Crime"],
+        "rating": 6.3,
+        "poster": "../images/comedy-2.jpeg",
+        "slug": "central-intelligence",
+        "reviews": [
+            {
+            "id": 1,
+            "name": "Jake Thompson",
+            "location": "Los Angeles",
+            "comment": "Kevin Hart and The Rock make an epic duo!"
+            },
+            {
+            "id": 2,
+            "name": "Aisha Khan",
+            "location": "Dubai",
+            "comment": "Great mix of action and humor!"
+            }
+        ],
+        "languages": ["English", "Spanish", "French"],
+        "director": {
+            "name": "Rawson Marshall Thurber",
+            "image": "../images/director-centralintelligence.png",
+            "location": "From USA"
+        },
+        "music": {
+            "name": "Theodore Shapiro",
+            "image": "../images/music-centralintelligence.png",
+            "location": "From USA"
+        },
+        "cast": [
+            "../images/cast-4.png",
+            "../images/cast-5.png",
+            "../images/cast-6.png"
+        ]
+        },
+        {
+        "title": "Bhool Bhulaiyaa 2",
+        "description": "A man and a woman cross paths in an abandoned mansion filled with secrets.",
+        "year": 2022,
+        "genre": ["Comedy", "Horror", "Mystery"],
+        "rating": 6.5,
+        "poster": "../images/comedy-3.jpg",
+        "slug": "bhool-bhulaiyaa-2",
+        "reviews": [
+            {
+            "id": 1,
+            "name": "Neha Sharma",
+            "location": "Delhi",
+            "comment": "Spooky yet hilarious!"
+            },
+            {
+            "id": 2,
+            "name": "Lucas Brown",
+            "location": "London",
+            "comment": "The perfect mix of horror and comedy."
+            }
+        ],
+        "languages": ["Hindi", "Tamil", "Telugu"],
+        "director": {
+            "name": "Anees Bazmee",
+            "image": "../images/director-bhoolbhulaiyaa2.png",
+            "location": "From India"
+        },
+        "music": {
+            "name": "Pritam",
+            "image": "../images/music-bhoolbhulaiyaa2.png",
+            "location": "From India"
+        },
+        "cast": [
+            "../images/cast-7.png",
+            "../images/cast-8.png",
+            "../images/cast-9.png"
+        ]
+        },
+        {
+        "title": "Udanchhoo",
+        "description": "A conman and a fake spiritual leader team up for an elaborate heist.",
+        "year": 2018,
+        "genre": ["Comedy", "Crime", "Drama"],
+        "rating": 5.2,
+        "poster": "../images/comedy-4.jpg",
+        "slug": "udanchhoo",
+        "reviews": [
+            {
+            "id": 1,
+            "name": "Ravi Patel",
+            "location": "Ahmedabad",
+            "comment": "Entertaining but could have been better."
+            },
+            {
+            "id": 2,
+            "name": "Sophia Green",
+            "location": "Toronto",
+            "comment": "Decent comedy with a fun story."
+            }
+        ],
+        "languages": ["Hindi", "Punjabi"],
+        "director": {
+            "name": "Vipin Parashar",
+            "image": "../images/director-udanchhoo.png",
+            "location": "From India"
+        },
+        "music": {
+            "name": "Prashant Singh",
+            "image": "../images/music-udanchhoo.png",
+            "location": "From India"
+        },
+        "cast": [
+            "../images/cast-10.png",
+            "../images/cast-11.png",
+            "../images/cast-12.png"
+        ]
+        },
+        {
+            "title": "Family Drama",
+            "description": "A dark family saga that unfolds in unexpected ways, revealing shocking secrets.",
+            "year": 2021,
+            "genre": ["Thriller", "Drama"],
+            "rating": 6.8,
+            "poster": "../images/drama-1.jpeg",
+            "slug": "family-drama",
+            "reviews": [
+            {
+                "id": 1,
+                "name": "Arjun Mehta",
+                "location": "Bangalore",
+                "comment": "A gripping thriller with a strong emotional core!"
+            },
+              {
+                "id": 2,
+                "name": "Sophia Carter",
+                "location": "London",
+                "comment": "Intense and thought-provoking."
+              }
+            ],
+            "languages": ["Hindi", "Telugu", "English"],
+            "director": {
+              "name": "Megha Reddy",
+              "image": "../images/director-familydrama.png",
+              "location": "From India"
+            },
+            "music": {
+              "name": "Anirudh Ravichander",
+              "image": "../images/music-familydrama.png",
+              "location": "From India"
+            },
+            "cast": [
+              "../images/cast-1.png",
+              "../images/cast-2.png",
+              "../images/cast-3.png"
+            ]
+        },
+        {
+            "title": "Joker",
+            "description": "A mentally troubled comedian embarks on a downward spiral that leads to chaos in Gotham City.",
+            "year": 2019,
+            "genre": ["Crime", "Drama"],
+            "rating": 8.4,
+            "poster": "../images/drama-2.jpeg",
+            "slug": "joker",
+            "reviews": [
+            {
+                "id": 1,
+                "name": "Michael Robinson",
+                "location": "New York",
+                "comment": "One of the best performances in cinema history!"
+            },
+            {
+                "id": 2,
+                "name": "Ravi Kumar",
+                "location": "Mumbai",
+                "comment": "Disturbing, dark, and absolutely brilliant."
+            }
+            ],
+            "languages": ["English", "French", "Spanish"],
+            "director": {
+            "name": "Todd Phillips",
+            "image": "../images/director-joker.png",
+            "location": "From USA"
+            },
+            "music": {
+            "name": "Hildur Guðnadóttir",
+            "image": "../images/music-joker.png",
+            "location": "From Iceland"
+            },
+            "cast": [
+            "../images/cast-4.png",
+            "../images/cast-5.png",
+            "../images/cast-6.png"
+            ]
+        },
+        {
+            "title": "Unknown Movie 1",
+            "description": "A terrifying tale of survival as a group of strangers face an unimaginable horror.",
+            "year": 2022,
+            "genre": ["Horror", "Thriller"],
+            "rating": 4.0,
+            "poster": "../images/drama-4.jpeg",
+            "slug": "unknown-movie-1",
+            "reviews": [
+            {
+                "id": 1,
+                "name": "Ella Martinez",
+                "location": "Madrid",
+                "comment": "Not the best horror movie, but had some good moments."
+            },
+            {
+                "id": 2,
+                "name": "Hassan Ali",
+                "location": "Cairo",
+                "comment": "Predictable but still entertaining."
+            }
+            ],
+            "languages": ["English"],
+            "director": {
+            "name": "John Doe",
+            "image": "../images/director-unknown.png",
+            "location": "Unknown"
+            },
+            "music": {
+            "name": "Unknown Artist",
+            "image": "../images/music-unknown.png",
+            "location": "Unknown"
+            },
+            "cast": [
+            "../images/cast-7.png",
+            "../images/cast-8.png",
+            "../images/cast-9.png"
+            ]
+        },
+        {
+            "title": "Bholaa",
+            "description": "An ex-convict embarks on a dangerous journey to reunite with his daughter, facing deadly obstacles along the way.",
+            "year": 2023,
+            "genre": ["Action", "Drama"],
+            "rating": 7.0,
+            "poster": "../images/drama-3.jpeg",
+            "slug": "bholaa",
+            "reviews": [
+            {
+                "id": 1,
+                "name": "Arvind Singh",
+                "location": "Delhi",
+                "comment": "A high-octane action drama with a strong emotional core!"
+            },
+            {
+                "id": 2,
+                "name": "Lisa Brown",
+                "location": "Sydney",
+                "comment": "Powerful performance and intense action sequences!"
+            }
+            ],
+            "languages": ["Hindi", "Tamil", "Telugu"],
+            "director": {
+            "name": "Ajay Devgn",
+            "image": "../images/director-bholaa.png",
+            "location": "From India"
+            },
+            "music": {
+            "name": "Ravi Basrur",
+            "image": "../images/music-bholaa.png",
+            "location": "From India"
+            },
+            "cast": [
+            "../images/cast-10.png",
+            "../images/cast-11.png",
+            "../images/cast-12.png"
+            ]
+        },
+        {
+            "title": "US",
+            "description": "A family's serene beach vacation turns to chaos when their doppelgängers appear and begin to terrorize them.",
+            "year": 2021,
+            "genre": ["Thriller", "Drama"],
+            "rating": 6.8,
+            "poster": "../images/horror-4.jpeg",
+            "slug": "us",
+            "reviews": [
+              {
+                "id": 1,
+                "name": "Jessica Moore",
+                "location": "Los Angeles",
+                "comment": "A chilling and thought-provoking horror film."
+              },
+              {
+                "id": 2,
+                "name": "Omar Farouk",
+                "location": "Cairo",
+                "comment": "Unique concept with intense moments!"
+              }
+            ],
+            "languages": ["English", "French"],
+            "director": {
+              "name": "Jordan Peele",
+              "image": "../images/director-us.png",
+              "location": "From USA"
+            },
+            "music": {
+              "name": "Michael Abels",
+              "image": "../images/music-us.png",
+              "location": "From USA"
+            },
+            "cast": [
+              "../images/cast-1.png",
+              "../images/cast-2.png",
+              "../images/cast-3.png"
+            ]
+        },
+        {
+        "title": "Scream 5",
+        "description": "Ghostface returns to Woodsboro to haunt a new generation, as a group of friends try to uncover the killer's identity.",
+        "year": 2019,
+        "genre": ["Crime", "Drama"],
+        "rating": 8.4,
+        "poster": "../images/horror-1.jpeg",
+        "slug": "scream-5",
+        "reviews": [
+            {
+            "id": 1,
+            "name": "David Harris",
+            "location": "New York",
+            "comment": "A fantastic return for the Scream franchise!"
+            },
+            {
+            "id": 2,
+            "name": "Lina Ahmed",
+            "location": "Dubai",
+            "comment": "Suspenseful and full of nostalgic references."
+            }
+        ],
+        "languages": ["English", "Spanish"],
+        "director": {
+            "name": "Matt Bettinelli-Olpin",
+            "image": "../images/director-scream.png",
+            "location": "From USA"
+        },
+        "music": {
+            "name": "Brian Tyler",
+            "image": "../images/music-scream.png",
+            "location": "From USA"
+        },
+        "cast": [
+            "../images/cast-4.png",
+            "../images/cast-5.png",
+            "../images/cast-6.png"
+        ]
+        },
+        {
+        "title": "The Human Centipede",
+        "description": "A twisted surgeon kidnaps three tourists and surgically connects them to create a horrific 'human centipede.'",
+        "year": 2022,
+        "genre": ["Horror", "Thriller"],
+        "rating": 4.0,
+        "poster": "../images/horror-3.jpeg",
+        "slug": "the-human-centipede",
+        "reviews": [
+            {
+            "id": 1,
+            "name": "Daniel Cooper",
+            "location": "Berlin",
+            "comment": "Disturbing and grotesque, but undeniably unique."
+            },
+            {
+            "id": 2,
+            "name": "Amira Khaled",
+            "location": "Cairo",
+            "comment": "Not for the faint-hearted!"
+            }
+        ],
+        "languages": ["English", "Dutch"],
+        "director": {
+            "name": "Tom Six",
+            "image": "../images/director-centipede.png",
+            "location": "From Netherlands"
+        },
+        "music": {
+            "name": "Patrick Savage",
+            "image": "../images/music-centipede.png",
+            "location": "From UK"
+        },
+        "cast": [
+            "../images/cast-7.png",
+            "../images/cast-8.png",
+            "../images/cast-9.png"
+        ]
+        },
+        {
+        "title": "The FleshEater",
+        "description": "A small town faces an outbreak of flesh-eating creatures, forcing survivors to fight for their lives.",
+        "year": 2023,
+        "genre": ["Action", "Drama"],
+        "rating": 7.0,
+        "poster": "../images/horror-2.jpeg",
+        "slug": "the-fleshEater",
+        "reviews": [
+            {
+            "id": 1,
+            "name": "Rohan Mehta",
+            "location": "Mumbai",
+            "comment": "A thrilling mix of action and horror!"
+            },
+            {
+            "id": 2,
+            "name": "Sarah Williams",
+            "location": "Toronto",
+            "comment": "Gory but entertaining."
+            }
+        ],
+        "languages": ["English", "Hindi"],
+        "director": {
+            "name": "Robert King",
+            "image": "../images/director-flesheater.png",
+            "location": "From USA"
+        },
+        "music": {
+            "name": "John Carpenter",
+            "image": "../images/music-flesheater.png",
+            "location": "From USA"
+        },
+        "cast": [
+            "../images/cast-10.png",
+            "../images/cast-11.png",
+            "../images/cast-12.png"
+        ]
+        },
+        {
+            "title": "Immortals",
+            "description": "A warrior chosen by the gods fights to stop a ruthless king from unleashing chaos upon the world.",
+            "year": 2011,
+            "genre": ["Action", "Fantasy", "Drama"],
+            "rating": 6.0,
+            "poster": "../images/top-adventure-3.jpeg",
+            "slug": "immortals",
+            "reviews": [
+            {
+                "id": 1,
+                "name": "Alex Carter",
+                "location": "London",
+                "comment": "Epic battles and stunning visuals!"
+              },
+              {
+                "id": 2,
+                "name": "Mohamed Essam",
+                "location": "Cairo",
+                "comment": "Great action, but lacks deep storytelling."
+              }
+            ],
+            "languages": ["English", "Greek"],
+            "director": {
+              "name": "Tarsem Singh",
+              "image": "../images/director-immortals.png",
+              "location": "From India"
+            },
+            "music": {
+              "name": "Trevor Morris",
+              "image": "../images/music-immortals.png",
+              "location": "From Canada"
+            },
+            "cast": [
+              "../images/cast-1.png",
+              "../images/cast-2.png",
+              "../images/cast-3.png"
+            ]
+        },
+        {
+        "title": "Hansel & Gretel: Witch Hunters",
+        "description": "After surviving a childhood trauma, siblings Hansel and Gretel become expert witch hunters, facing their most dangerous enemy yet.",
+        "year": 2013,
+        "genre": ["Action", "Fantasy", "Horror"],
+        "rating": 6.1,
+        "poster": "../images/top-adventure-4.jpeg",
+        "slug": "hansel-and-gretel-witch-hunters",
+        "reviews": [
+            {
+            "id": 1,
+            "name": "Sophia Clarke",
+            "location": "New York",
+            "comment": "Fun and action-packed, a fresh twist on the fairy tale!"
+            },
+            {
+            "id": 2,
+            "name": "Omar Khaled",
+            "location": "Dubai",
+            "comment": "Decent fantasy movie, could have been better."
+            }
+        ],
+        "languages": ["English", "German"],
+        "director": {
+            "name": "Tommy Wirkola",
+            "image": "../images/director-hansel-gretel.png",
+            "location": "From Norway"
+        },
+        "music": {
+            "name": "Atli Örvarsson",
+            "image": "../images/music-hansel-gretel.png",
+            "location": "From Iceland"
+        },
+        "cast": [
+            "../images/cast-4.png",
+            "../images/cast-5.png",
+            "../images/cast-6.png"
+        ]
+        },
+        {
+            "title": "Jaanu",
+            "description": "A man and woman reunite years after their love story ended, exploring memories of the past and how life has changed them.",
+            "year": 2020,
+            "genre": ["Drama", "Romance"],
+            "rating": 7.8,
+            "poster": "../images/top-comedy-2.jpeg",
+            "slug": "jaanu",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Amit Sharma",
+                    "location": "Delhi",
+                    "comment": "A beautiful exploration of love and time."
+                },
+                {
+                    "id": 2,
+                    "name": "Priya Desai",
+                    "location": "Mumbai",
+                    "comment": "Emotional and heartwarming, a must-watch!"
+                }
+            ],
+            "languages": ["Hindi", "Tamil"],
+            "director": {
+                "name": "C.V. Kumar",
+                "image": "../images/director-jaanu.png",
+                "location": "From India"
+            },
+            "music": {
+                "name": "A.R. Rahman",
+                "image": "../images/music-jaanu.png",
+                "location": "From India"
+            },
+            "cast": [
+                "../images/cast-1.png",
+                "../images/cast-2.png",
+                "../images/cast-3.png"
+            ]
+        },
+        {
+            "title": "MAIDS",
+            "description": "A dark comedy about the lives and struggles of a group of maids working for the elite class in a bustling city.",
+            "year": 2022,
+            "genre": ["Comedy", "Drama"],
+            "rating": 6.5,
+            "poster": "../images/top-comedy-3.jpeg",
+            "slug": "maids",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Tan",
+                    "location": "Singapore",
+                    "comment": "A sharp take on social inequality, funny yet thought-provoking."
+                },
+                {
+                    "id": 2,
+                    "name": "Nina Kapoor",
+                    "location": "New Delhi",
+                    "comment": "Witty and dark, perfectly captures the struggles of everyday life."
+                }
+            ],
+            "languages": ["English"],
+            "director": {
+                "name": "Vikas Bahl",
+                "image": "../images/director-maids.png",
+                "location": "From India"
+            },
+            "music": {
+                "name": "Pritam",
+                "image": "../images/music-maids.png",
+                "location": "From India"
+            },
+            "cast": [
+                "../images/cast-4.png",
+                "../images/cast-5.png",
+                "../images/cast-6.png"
+            ]
+        },
+        {
+            "title": "Pegal Banti",
+            "description": "A hilarious courtroom drama following a quirky lawyer and his unusual approach to winning impossible cases.",
+            "year": 2023,
+            "genre": ["Comedy", "Drama"],
+            "rating": 6.9,
+            "poster": "../images/top-comedy-4.jpeg",
+            "slug": "pegal-banti",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Ravi Mehra",
+                    "location": "Chennai",
+                    "comment": "Funny, fast-paced, and totally entertaining."
+                },
+                {
+                    "id": 2,
+                    "name": "Sanya Agarwal",
+                    "location": "Mumbai",
+                    "comment": "A laugh riot with a unique twist on the courtroom drama."
+                }
+            ],
+            "languages": ["Hindi"],
+            "director": {
+                "name": "Raj Mehta",
+                "image": "../images/director-pegalbanti.png",
+                "location": "From India"
+            },
+            "music": {
+                "name": "Sachin-Jigar",
+                "image": "../images/music-pegalbanti.png",
+                "location": "From India"
+            },
+            "cast": [
+                "../images/cast-7.png",
+                "../images/cast-8.png",
+                "../images/cast-9.png"
+            ]
+        },
+        {
+            "title": "The Dark Society",
+            "description": "A suspenseful thriller uncovering the dark secrets of a secret society.",
+            "year": 2022,
+            "genre": ["Thriller", "Mystery"],
+            "rating": 6.8,
+            "poster": "/images/top-drama-1.jpeg",
+            "slug": "the-dark-society",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Alice Johnson",
+                    "location": "New York",
+                    "comment": "A mind-blowing mystery thriller!"
+                },
+                {
+                    "id": 2,
+                    "name": "Michael Smith",
+                    "location": "London",
+                    "comment": "Kept me on the edge of my seat!"
+                }
+            ],
+            "languages": ["English"],
+            "director": {
+                "name": "Christopher Nolan",
+                "image": "/images/director-dark-society.png",
+                "location": "From UK"
+            },
+            "music": {
+                "name": "Hans Zimmer",
+                "image": "/images/music-dark-society.png",
+                "location": "From Germany"
+            },
+            "cast": [
+                "/images/cast-1.png",
+                "/images/cast-2.png",
+                "/images/cast-3.png"
+            ]
+        },
+        {
+            "title": "The FleshEater",
+            "description": "A gripping action drama where survival is the only option.",
+            "year": 2023,
+            "genre": ["Action", "Drama"],
+            "rating": 7.0,
+            "poster": "/images/horror-3.jpeg",
+            "slug": "the-fleshEater",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "location": "Los Angeles",
+                    "comment": "Intense and action-packed!"
+                },
+                {
+                    "id": 2,
+                    "name": "Emma Wilson",
+                    "location": "Toronto",
+                    "comment": "Loved the brutal fight scenes!"
+                }
+            ],
+            "languages": ["English"],
+            "director": {
+                "name": "James Wan",
+                "image": "/images/director-fleshEater.png",
+                "location": "From Australia"
+            },
+            "music": {
+                "name": "Junkie XL",
+                "image": "/images/music-fleshEater.png",
+                "location": "From Netherlands"
+            },
+            "cast": [
+                "/images/cast-4.png",
+                "/images/cast-5.png",
+                "/images/cast-6.png"
+            ]
+        },
+        {
+            "title": "The Hole",
+            "description": "A deep and emotional drama exploring love and loss.",
+            "year": 2021,
+            "genre": ["Drama", "Romance"],
+            "rating": 6.5,
+            "poster": "/images/top-drama-3.jpeg",
+            "slug": "the-hole",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Sophia Martinez",
+                    "location": "Madrid",
+                    "comment": "A touching and beautifully shot film."
+                },
+                {
+                    "id": 2,
+                    "name": "Liam Brown",
+                    "location": "Sydney",
+                    "comment": "Heartfelt and emotional storytelling."
+                }
+            ],
+            "languages": ["French"],
+            "director": {
+                "name": "Jean-Pierre Jeunet",
+                "image": "/images/director-the-hole.png",
+                "location": "From France"
+            },
+            "music": {
+                "name": "Alexandre Desplat",
+                "image": "/images/music-the-hole.png",
+                "location": "From France"
+            },
+            "cast": [
+                "/images/cast-7.png",
+                "/images/cast-8.png",
+                "/images/cast-9.png"
+            ]
+        },
+        {
+            "title": "Tenet",
+            "description": "A mind-bending sci-fi thriller exploring time inversion.",
+            "year": 2020,
+            "genre": ["Sci-Fi", "Action"],
+            "rating": 7.8,
+            "poster": "/images/top-drama-4.jpeg",
+            "slug": "tenet",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "David Lee",
+                    "location": "San Francisco",
+                    "comment": "An incredible cinematic experience!"
+                },
+                {
+                    "id": 2,
+                    "name": "Emily Clark",
+                    "location": "Berlin",
+                    "comment": "Nolan does it again! Amazing!"
+                }
+            ],
+            "languages": ["English"],
+            "director": {
+                "name": "Christopher Nolan",
+                "image": "/images/director-tenet.png",
+                "location": "From UK"
+            },
+            "music": {
+                "name": "Ludwig Göransson",
+                "image": "/images/music-tenet.png",
+                "location": "From Sweden"
+            },
+            "cast": [
+                "/images/cast-10.png",
+                "/images/cast-11.png",
+                "/images/cast-12.png"
+            ]
+        },
+        {
+            "title": "Morbius",
+            "description": "A biochemist with a rare blood disease tries to cure himself, but ends up becoming a living vampire.",
+            "year": 2022,
+            "genre": ["Action", "Horror", "Sci-Fi"],
+            "rating": 5.2,
+            "poster": "../images/trend-1.png",
+            "slug": "morbius",
+            "duration": "1h 30min",
+            "views": "2K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "James Carter",
+                    "location": "Los Angeles",
+                    "comment": "Interesting concept but poor execution."
+                },
+                {
+                    "id": 2,
+                    "name": "Aisha Patel",
+                    "location": "Mumbai",
+                    "comment": "Had potential, but disappointing overall."
+                }
+            ],
+            "languages": ["English"],
+            "director": {
+                "name": "Daniel Espinosa",
+                "image": "../images/director-morbius.png",
+                "location": "From Sweden"
+            },
+            "music": {
+                "name": "Jon Ekstrand",
+                "image": "../images/music-morbius.png",
+                "location": "From Sweden"
+            },
+            "cast": [
+                "../images/cast-1.png",
+                "../images/cast-2.png",
+                "../images/cast-3.png"
+            ]
+        },
+        {
+            "title": "Kisi Ka Bhai Kisi Ki Jaan",
+            "description": "A mix of action and romance, this film follows the life of a man who will do anything to protect his family.",
+            "year": 2023,
+            "genre": ["Action", "Drama"],
+            "rating": 6.3,
+            "poster": "../images/trend-2.png",
+            "slug": "kisi-ka-bhai-kisi-ki-jaan",
+            "duration": "1h 57min",
+            "views": "1.5K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Raj Verma",
+                    "location": "Delhi",
+                    "comment": "Salman Khan delivers an entertaining performance!"
+                },
+                {
+                    "id": 2,
+                    "name": "Fatima Noor",
+                    "location": "Dubai",
+                    "comment": "Family drama with solid action."
+                }
+            ],
+            "languages": ["Hindi"],
+            "director": {
+                "name": "Farhad Samji",
+                "image": "../images/director-kkbkkj.png",
+                "location": "From India"
+            },
+            "music": {
+                "name": "Devi Sri Prasad",
+                "image": "../images/music-kkbkkj.png",
+                "location": "From India"
+            },
+            "cast": [
+                "../images/cast-4.png",
+                "../images/cast-5.png",
+                "../images/cast-6.png"
+            ]
+        },
+        {
+            "title": "Suraj Pe Mangal Bhari",
+            "description": "A light-hearted comedy about a wedding detective who uncovers shocking secrets.",
+            "year": 2020,
+            "genre": ["Comedy", "Drama"],
+            "rating": 6.6,
+            "poster": "../images/trend-3.png",
+            "slug": "suraj-pe-mangal-bhari",
+            "duration": "2h 10min",
+            "views": "1.8K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Ravi Sharma",
+                    "location": "Mumbai",
+                    "comment": "Hilarious and fun!"
+                },
+                {
+                    "id": 2,
+                    "name": "Priya Desai",
+                    "location": "Pune",
+                    "comment": "Good comedy with a nice storyline."
+                }
+            ],
+            "languages": ["Hindi"],
+            "director": {
+                "name": "Abhishek Sharma",
+                "image": "../images/director-spmb.png",
+                "location": "From India"
+            },
+            "music": {
+                "name": "Javed-Mohsin",
+                "image": "../images/music-spmb.png",
+                "location": "From India"
+            },
+            "cast": [
+                "../images/cast-7.png",
+                "../images/cast-8.png",
+                "../images/cast-9.png"
+            ]
+        },
+        {
+            "title": "Pathaan",
+            "description": "An exiled spy is called back to action to prevent a deadly terrorist attack.",
+            "year": 2023,
+            "genre": ["Action", "Thriller"],
+            "rating": 7.5,
+            "poster": "../images/trend-4.png",
+            "slug": "pathan",
+            "duration": "2h 20min",
+            "views": "3K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Arjun Kapoor",
+                    "location": "Bangalore",
+                    "comment": "SRK is back with a bang!"
+                },
+                {
+                    "id": 2,
+                    "name": "Meera Khan",
+                    "location": "Karachi",
+                    "comment": "Amazing action sequences!"
+                }
+            ],
+            "languages": ["Hindi"],
+            "director": {
+                "name": "Siddharth Anand",
+                "image": "../images/director-pathan.png",
+                "location": "From India"
+            },
+            "music": {
+                "name": "Vishal-Shekhar",
+                "image": "../images/music-pathan.png",
+                "location": "From India"
+            },
+            "cast": [
+                "../images/cast-10.png",
+                "../images/cast-11.png",
+                "../images/cast-12.png"
+            ]
+        },
+        {
+            "title": "Ant-Man",
+            "description": "A former thief becomes a superhero with the ability to shrink and control ants.",
+            "year": 2015,
+            "genre": ["Action", "Sci-Fi", "Comedy"],
+            "rating": 7.3,
+            "poster": "../images/trend-5.png",
+            "slug": "ant-man",
+            "duration": "1h 42min",
+            "views": "5K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Chris Evans",
+                    "location": "Los Angeles",
+                    "comment": "A fun and refreshing superhero movie!"
+                },
+                {
+                    "id": 2,
+                    "name": "Diana Prince",
+                    "location": "London",
+                    "comment": "Paul Rudd is hilarious as Ant-Man."
+                }
+            ],
+            "languages": ["English"],
+            "director": {
+                "name": "Peyton Reed",
+                "image": "../images/director-antman.png",
+                "location": "From USA"
+            },
+            "music": {
+                "name": "Christophe Beck",
+                "image": "../images/music-antman.png",
+                "location": "From Canada"
+            },
+            "cast": [
+                "../images/cast-13.png",
+                "../images/cast-14.png",
+                "../images/cast-15.png"
+            ]
+        },
+        {
+            "title": "Adipurush",
+            "description": "A mythological drama based on the epic Ramayana, portraying the battle between good and evil.",
+            "year": 2023,
+            "genre": ["Action", "Drama", "Mythology"],
+            "rating": 5.9,
+            "poster": "../images/release-1.png",
+            "slug": "adipurush",
+            "duration": "2h 59min",
+            "views": "4.2K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Raj Malhotra",
+                    "location": "Mumbai",
+                    "comment": "Visually stunning but lacks strong storytelling."
+                },
+                {
+                    "id": 2,
+                    "name": "Aarav Sharma",
+                    "location": "Delhi",
+                    "comment": "Prabhas delivers a powerful performance!"
+                }
+            ],
+            "languages": ["Hindi", "Telugu"],
+            "director": {
+                "name": "Om Raut",
+                "image": "../images/director-adipurush.png",
+                "location": "From India"
+            },
+            "music": {
+                "name": "Ajay-Atul",
+                "image": "../images/music-adipurush.png",
+                "location": "From India"
+            },
+            "cast": [
+                "../images/cast-adipurush-1.png",
+                "../images/cast-adipurush-2.png",
+                "../images/cast-adipurush-3.png"
+            ]
+        },
+        {
+            "title": "The Foreigner",
+            "description": "A businessman with a mysterious past seeks revenge when his daughter is killed in an act of terrorism.",
+            "year": 2017,
+            "genre": ["Action", "Thriller"],
+            "rating": 7.0,
+            "poster": "../images/release-2.png",
+            "slug": "the-foreigner",
+            "duration": "1h 53min",
+            "views": "3.8K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Emily Johnson",
+                    "location": "New York",
+                    "comment": "Jackie Chan in a more serious and emotional role, loved it!"
+                },
+                {
+                    "id": 2,
+                    "name": "Liam Carter",
+                    "location": "London",
+                    "comment": "Intense and gripping thriller with great action scenes."
+                }
+            ],
+            "languages": ["English"],
+            "director": {
+                "name": "Martin Campbell",
+                "image": "../images/director-theforeigner.png",
+                "location": "From New Zealand"
+            },
+            "music": {
+                "name": "Cliff Martinez",
+                "image": "../images/music-theforeigner.png",
+                "location": "From USA"
+            },
+            "cast": [
+                "../images/cast-foreigner-1.png",
+                "../images/cast-foreigner-2.png",
+                "../images/cast-foreigner-3.png"
+            ]
+        },
+        {
+            "title": "Sin City",
+            "description": "A neo-noir crime thriller that intertwines multiple dark and violent stories in Basin City.",
+            "year": 2005,
+            "genre": ["Crime", "Thriller"],
+            "rating": 8.0,
+            "poster": "../images/release-3.png",
+            "slug": "sin-city",
+            "duration": "2h 4min",
+            "views": "5.5K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "James Wilson",
+                    "location": "Los Angeles",
+                    "comment": "One of the best comic book adaptations ever!"
+                },
+                {
+                    "id": 2,
+                    "name": "Sophie Davis",
+                    "location": "Chicago",
+                    "comment": "Dark, stylish, and brutal. A masterpiece!"
+                }
+            ],
+            "languages": ["English"],
+            "director": {
+                "name": "Frank Miller & Robert Rodriguez",
+                "image": "../images/director-sincity.png",
+                "location": "From USA"
+            },
+            "music": {
+                "name": "John Debney",
+                "image": "../images/music-sincity.png",
+                "location": "From USA"
+            },
+            "cast": [
+                "../images/cast-sincity-1.png",
+                "../images/cast-sincity-2.png",
+                "../images/cast-sincity-3.png"
+            ]
+        },
+        {
+            "title": "The Tomorrow War",
+            "description": "Soldiers and civilians are sent into the future to fight a brutal alien war to save humanity.",
+            "year": 2021,
+            "genre": ["Action", "Sci-Fi"],
+            "rating": 6.6,
+            "poster": "../images/release-4.png",
+            "slug": "the-tomorrow-war",
+            "duration": "2h 18min",
+            "views": "3.2K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Michael Adams",
+                    "location": "Toronto",
+                    "comment": "Thrilling concept but slightly predictable plot."
+                },
+                {
+                    "id": 2,
+                    "name": "Anna Lee",
+                    "location": "Sydney",
+                    "comment": "Chris Pratt delivers an engaging performance!"
+                }
+            ],
+            "languages": ["English"],
+            "director": {
+                "name": "Chris McKay",
+                "image": "../images/director-tomorrowwar.png",
+                "location": "From USA"
+            },
+            "music": {
+                "name": "Lorne Balfe",
+                "image": "../images/music-tomorrowwar.png",
+                "location": "From UK"
+            },
+            "cast": [
+                "../images/cast-tomorrowwar-1.png",
+                "../images/cast-tomorrowwar-2.png",
+                "../images/cast-tomorrowwar-3.png"
+            ]
+        },
+        {
+            "title": "Misfire",
+            "description": "An action-packed thriller following a suspended DEA agent as he fights to save his kidnapped wife in Mexico.",
+            "year": 2014,
+            "genre": ["Action", "Crime", "Thriller"],
+            "rating": 4.2,
+            "poster": "../images/release-5.png",
+            "slug": "misfire",
+            "duration": "1h 30min",
+            "views": "1.9K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Carlos Lopez",
+                    "location": "Mexico City",
+                    "comment": "Decent action but very predictable."
+                },
+                {
+                    "id": 2,
+                    "name": "John Carter",
+                    "location": "Texas",
+                    "comment": "Low budget, but still had some cool action moments."
+                }
+            ],
+            "languages": ["English", "Spanish"],
+            "director": {
+                "name": "R. Ellis Frazier",
+                "image": "../images/director-misfire.png",
+                "location": "From USA"
+            },
+            "music": {
+                "name": "John Roome",
+                "image": "../images/music-misfire.png",
+                "location": "From USA"
+            },
+            "cast": [
+                "../images/cast-13.png",
+                "../images/cast-14.png",
+                "../images/cast-15.png"
+            ]
+        }, 
+        {
+            "title": "Kantara",
+            "description": "A gripping tale of folklore, traditions, and divine retribution set in the heart of a mystical forest.",
+            "year": 2022,
+            "genre": ["Action", "Drama", "Fantasy"],
+            "rating": 8.3,
+            "poster": "../images/must-1.png",
+            "slug": "kantara",
+            "duration": "2h 30min",
+            "views": "6K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Arjun Rao",
+                    "location": "Bangalore",
+                    "comment": "A masterpiece blending culture and action beautifully!"
+                },
+                {
+                    "id": 2,
+                    "name": "Sneha Iyer",
+                    "location": "Chennai",
+                    "comment": "Deeply emotional and visually stunning!"
+                }
+            ],
+            "languages": ["Kannada", "Hindi", "Tamil"],
+            "director": {
+                "name": "Rishab Shetty",
+                "image": "../images/director-kantara.png",
+                "location": "From India"
+            },
+            "music": {
+                "name": "B Ajaneesh Loknath",
+                "image": "../images/music-kantara.png",
+                "location": "From India"
+            },
+            "cast": [
+                "../images/cast-1.png",
+                "../images/cast-2.png",
+                "../images/cast-3.png"
+            ]
+        },
+        {
+            "title": "Pushpa: The Rise",
+            "description": "A laborer rises to power in the red sandalwood smuggling underworld, facing dangerous rivals.",
+            "year": 2021,
+            "genre": ["Action", "Crime", "Drama"],
+            "rating": 7.6,
+            "poster": "../images/must-2.png",
+            "slug": "pushpa",
+            "duration": "2h 59min",
+            "views": "7.8K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Ravi Kumar",
+                    "location": "Hyderabad",
+                    "comment": "Allu Arjun nailed it! A total mass entertainer!"
+                },
+                {
+                    "id": 2,
+                    "name": "Priya Sharma",
+                    "location": "Mumbai",
+                    "comment": "Stylish action with a powerful story!"
+                }
+            ],
+            "languages": ["Telugu", "Hindi", "Malayalam"],
+            "director": {
+                "name": "Sukumar",
+                "image": "../images/director-pushpa.png",
+                "location": "From India"
+            },
+            "music": {
+                "name": "Devi Sri Prasad",
+                "image": "../images/music-pushpa.png",
+                "location": "From India"
+            },
+            "cast": [
+                "../images/cast-4.png",
+                "../images/cast-5.png",
+                "../images/cast-6.png"
+            ]
+        },
+        {
+            "title": "Blade Runner 2049",
+            "description": "A new blade runner unearths a long-hidden secret that could plunge what's left of society into chaos.",
+            "year": 2017,
+            "genre": ["Sci-Fi", "Thriller"],
+            "rating": 8.0,
+            "poster": "../images/must-3.png",
+            "slug": "blade-runner",
+            "duration": "2h 44min",
+            "views": "5.3K",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "Ethan Clark",
+                    "location": "Los Angeles",
+                    "comment": "Visually stunning and a worthy sequel!"
+                },
+                {
+                    "id": 2,
+                    "name": "Sophia White",
+                    "location": "London",
+                    "comment": "Slow-paced but deeply philosophical."
+                }
+            ],
+            "languages": ["English"],
+            "director": {
+                "name": "Denis Villeneuve",
+                "image": "../images/director-blade-runner.png",
+                "location": "From Canada"
+            },
+            "music": {
+                "name": "Hans Zimmer",
+                "image": "../images/music-blade-runner.png",
+                "location": "From Germany"
+            },
+            "cast": [
+                "../images/cast-7.png",
+                "../images/cast-8.png",
+                "../images/cast-9.png"
+            ]
+        }
+    ] 
+}
+
+

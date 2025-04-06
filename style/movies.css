@@ -1,0 +1,324 @@
+.landing {
+    margin-bottom: 11.25em;
+    position: relative;
+}
+.landing .container .content{
+    position: relative !important;
+    min-height: 50em;
+    overflow: hidden;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding-inline: 3.125em;
+}
+.landing .container .content::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(0deg, #141414 0%, rgba(20, 20, 20, 0) 100%);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.landing .container .content .landing-swiper {
+    height: 50em !important;
+}
+.landing .container .content .landing-swiper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 12px;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #262626 0%, rgba(38, 38, 38, 0) 100%);
+    overflow: hidden;
+}
+.landing .container .content .landing-swiper  .info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    bottom: 2em;
+}
+.landing .container .content .landing-swiper .text {
+    
+    padding-inline: 5em;
+    font-family: Manrope;
+    margin-bottom: 2em;
+}
+.landing .container .content .landing-swiper .text h2 {
+    font-weight: 700;
+    font-size: 2.375em;
+    color: white;
+    margin-bottom: 0.25em;
+}
+.landing .container .content  .landing-swiper .text p {
+    font-weight: 500;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #999999;
+}
+.landing .container .content .landing-swiper .options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25em;
+    margin-bottom: 3.125em;
+}
+.landing .container .content .landing-swiper .options .play {
+    border-radius: 8px;
+    border: none;
+    padding: 0.875em 1.5em;
+    background-color: #E50000;
+    color: white;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 1.125em;
+}
+.landing .container .content .landing-swiper .options .play i {
+    margin-right: 0.5em;
+}
+.landing .container .content .landing-swiper .options .icons {
+    display: flex;
+    align-items: center;
+    gap: 0.625em;
+}
+.landing .container .content .landing-swiper .options .icons i {
+    border-radius: 8px;
+    border: 1px solid #262626;
+    background-color: #0F0F0F;
+    padding: 0.875em;
+    color: white;
+}
+.slider_landing  {
+    position: absolute;
+    width: 100%;
+    bottom: 1em;
+    z-index: 400;
+    padding-inline: 3em;
+}
+.slider_landing   .slider {
+    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1.25em;
+}
+.slider_landing .slider  .arrow {
+    background-color: #0F0F0F;
+    border: 1px solid #1F1F1F;
+    border-radius: 8px;
+    padding: 0.875em;
+    color: white;
+}
+.slider_landing .slider .minus-icon {
+    display: flex;
+    gap: 0.625em;
+    justify-content: center;
+}
+.slider_landing   .slider .minus-icon span {
+    background-color: #E50000;
+    width: 0.9em;
+    height: 3px;
+    border-radius: 2px;
+}
+
+@media(max-width: 767px) {
+    .landing .container .content .text p {
+        display: none;
+    }
+    .landing .container .content .options {
+        flex-direction: column;
+        width: 90%;
+    }
+    .landing .container .content .options .play , .icons {
+        width: 100%;
+        justify-content: center;
+    }
+    .slider_landing  {
+        display: none;
+    }
+    .movies-shows .container .section-content .box .header .icons {
+        display: none;
+    }
+}
+
+/* End landing section */
+/* Start Movies Section */
+/* Start components */
+.container .section-content .box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.container .section-content .box:not(:last-child) {
+    margin-bottom: 6.25em;
+}
+.container .section-content .box .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .section-content .box .header .text {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+}
+
+.container .section-content .box-5 .content{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1.25em;
+    
+}
+.container .section-content .box .content {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.container .section-content .box-4 .content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.875em;
+}
+.container .section-content .box .content .card  {
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    padding: 1em;
+}
+.container .section-content .box .content .card .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .section-content .box-5 .content .card .info  {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 1.125em;
+    color: white;
+}
+.container .section-content .box .content .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* End components */
+.movies-shows {
+    margin-bottom: 11.25em;
+}
+.movies-shows .container .section-content {
+    border-radius: 12px;
+    border: 1px solid #262626;
+    position: relative;
+    padding: 3.125em;
+}
+.movies-shows .container .section-content > span{
+    border-radius: 8px;
+    padding: 0.625em 1.5em;
+    background-color: #E50000;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 1.25em;
+    color: white;
+    position: absolute;
+    left: 2em;
+    top: -1.3em;
+}
+/* Start Trending section */
+.movies-shows  .container .section-content .trending .content .card .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.25em;
+}
+.movies-shows .container .section-content .trending .content .card  .text > span {
+    background-color: #141414;
+    border: 1px solid #262626;
+    padding:  0.625em ;
+    border-radius: 50px;
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 1em;
+    color: #999999;
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.375em;
+} 
+/* End Trending section */
+/* Start releases section */
+.movies-shows .container .section-content .releases .content .card .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+/* End releases section */
+/* Start Top section */
+.movies-shows  .container .section-content .top .content .card .info > i{
+    color: white;
+}
+.movies-shows  .container .section-content .top .content .card .info .text span:first-of-type{
+    background-color: #E50000;
+    padding: 0.625em;
+    border-radius: 5px;
+    color: white;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 1em;
+    color: white;
+    display: block;
+    margin-bottom: 0.25em;
+}
+.movies-shows  .container .section-content .top .content .card .info .text span:last-of-type {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 1.25em;
+    color: white;
+    display: block;
+}
+/* End Top section */
+
+/* Start must section */
+.movies-shows  .container .section-content .must .content .card .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.movies-shows .container .section-content .must .content .card .text > span {
+    background-color: #141414;
+    border: 1px solid #262626;
+    padding: 0.6em;
+    border-radius: 51px;
+    color: #999999;
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 1em;
+}
+.movies-shows  .container .section-content .must .content .card .text .stars {
+    background-color: #141414;
+    border: 1px solid #262626;
+    padding: 0.625em;
+    border-radius: 51px;
+    display: flex;
+}
+.movies-shows  .container .section-content .must .content .card .text .stars span:last-of-type {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 0.875em;
+    color: #999999;
+}
+
+/* End must section */
+/* End Movies Section */
+/* End Movies-page */

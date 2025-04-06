@@ -1,0 +1,28 @@
+@import "./header.css";
+@import "./ads.css";
+@import "./footer.css";
+@import "./reset.css";
+@import "./home.css";
+@import "./movies.css";
+@import "./swipers.css";
+@import "./single_movie.css";
+@import "./movies_categories.css";
+@import "./support.css";
+@import "./subscribe.css";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: #0F0F0F;
+}
+.swiper {
+    max-width: 100%;
+    overflow: hidden;
+}
+.swiper-slide {
+    width: 100% ;
+    
+} 
+.swiper-wrapper {
+    display: flex !important;
+    align-items: center;
+}

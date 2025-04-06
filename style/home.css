@@ -1,0 +1,371 @@
+/* Start landing section */
+.landing-page {
+    margin-bottom: 20em;
+    margin-top: -2em;
+}
+.landing-page .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.landing-page .container .text {
+    padding-inline: 5em;
+    margin-bottom: 3.125em;
+    font-family: Manrope;
+    text-align: center;
+}
+
+.landing-page .container .text h2{
+    font-weight: 700;
+    font-size: 3em;
+    color: white;
+    margin-bottom: 0.875em;
+}
+.landing-page .container .text p {
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #999999;
+}
+.landing-page .container .btn i{
+    margin-right: 0.5em;
+}
+.landing-page .container .btn button {
+    background-color: #E50000;
+    padding: 1.125em 1.5em;
+    border-radius: 8px;
+    color: white;
+    border: 0;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 1.125em;
+}
+@media(max-width: 767px) {
+    .landing-page .container .text {
+        padding-inline: 1em;
+    }
+}
+
+/* End landing section */
+/* Start categories */
+.categories {
+    margin-bottom: 9.375em;
+}
+.categories .container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categories .container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.categories .container .content {
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+
+.categories .container .content .box {
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    padding: 1.9em;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.categories .container .content .box .image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+}
+.categories .container .content .box .info {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Manrope;
+    justify-content: space-between;
+}
+.categories .container .content .box  .info h3 {
+    font-size: 1.125em;
+    font-weight: 600;
+}
+@media(max-width: 1024px) {
+    .categories .container .header .icons {
+        display: none;
+    }
+    .categories .container .header .text {
+        width: 100%;
+    }
+    .categories .container .header {
+        width: 100%;
+    }
+}
+
+/* End categories */
+/* Start Devices */
+.devices {
+    margin-bottom: 9.375em;
+}
+.devices .container .boxes  {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(22em,1fr));
+    gap: 2em;
+    margin-top: 3.75em;
+}
+.devices .container .boxes .box {
+    border-radius: 10px;
+    border: 1px solid #262626;
+    padding: 2.5em;
+    background-image: linear-gradient(221.52deg, rgba(229, 0, 0, 0.5) -208.03%, rgba(229, 0, 0, 0) 41.32%);
+}
+.devices .container .boxes .box .heading {
+    display: flex;
+    align-items: center;
+    gap: 1.125em;
+}
+.devices .container .boxes .box .heading .icon {
+    border-radius: 10px;
+    border: 1px solid #1F1F1F;
+    padding: 1.125em;
+    background-color: #141414;
+}
+.devices .container .boxes .box .heading .text h3 {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 1.25em;
+    color: white;
+}
+.devices .container .boxes .box .content p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #999999;
+    margin-top: 1.5em;
+}
+/* End Devices */
+/* Start FAQS */
+.questions {
+    margin-bottom: 9.375em;
+}
+.questions .container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
+.questions .container .header .btn button {
+    background-color: #E50000;
+    border-radius: 8px;
+    padding: 1.125em 1.5em ;
+    border: none;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 1.125em;
+    color: white;
+}
+
+.questions .container .rows {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 44em;
+    flex-wrap: wrap;
+}
+.questions .container .rows .row {
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+    width: calc((100% - 5em) / 2);
+    padding-left: 6em;
+    position: relative;
+    counter-increment: counter;
+    font-family: Manrope;
+    
+}
+.questions .container .rows .row:not(:last-child) {
+    border-bottom: 1px solid transparent;
+    border-image-source: linear-gradient(90deg, rgba(229, 0, 0, 0) 0%, #E50000 16.67%, rgba(229, 0, 0, 0) 100%);
+    border-image-slice: 1;
+}
+
+.questions .container .rows .row .text h3 {
+    font-weight: 500;
+    font-size: 1.375em;
+    color: white;
+    margin-bottom: 1.25em;
+    position: relative;
+}
+.questions .container .rows .row .text .para {
+    overflow: hidden;
+    opacity: 0;
+    display: grid;
+    grid-template-rows : 0fr;
+    transition: 0.5s ease-in-out;
+}
+.questions .container .rows .row .text .para p {
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #999999;
+    overflow: hidden;
+}
+.questions .container .rows .faq-active .text .para {
+    grid-template-rows: 1fr;
+    visibility: visible;
+    opacity: 1;
+}
+.questions .container .rows .row::before {
+    content: "0"counter(counter);
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #262626;
+    padding: 1em;
+    background-color: #1F1F1F;
+    left: 0.5em;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 1.25em;
+    top: 1em;
+}
+.questions .container .rows .row .icon i {
+    color: white;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+@media (max-width: 767px) {
+    .questions .container .rows {
+        flex-wrap: nowrap;
+        overflow-y: auto;
+        align-items: center;
+    }
+    .questions .container  .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2em;
+    }
+    .questions .container .rows .row {
+        width: 100%;
+    }
+}
+/* End FAQS */
+/* Start Plans */
+
+.plans {
+    margin-bottom: 7.5em;
+}
+.plans .container .plans-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.plans .container .plans-header .btn {
+    border-radius: 10px;
+    border: 1px solid #262626;
+    background-color: #0F0F0F;
+    padding: 0.625em;
+    display: flex;
+}
+.plans .container .plans-header .btn button {
+    padding: 0.875em 1.5em;
+    border-radius : 10px;
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #999999;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.plans .container .plans-header .btn .active {
+    background-color: #1F1F1F;
+    color: white;
+}
+.plans .container .plans-content {
+    display: flex;
+    flex-wrap: wrap !important;
+    align-items: center;
+    gap: 2em;
+    margin-top: 5em;
+}
+.plans .container .plans-content .box {
+    width: calc((100% - 4em ) / 3);
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    padding: 2.6em;
+}
+.plans .container .plans-content .box .info {
+    font-family: Manrope;
+    margin-bottom: 3.125em;
+}
+.plans .container .plans-content .box .info  h3 {
+    font-weight: 700;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 1em;
+}
+.plans .container .plans-content .box .info  p {
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #999999;
+}
+.plans .container .plans-content .box .price {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 1.8em;
+}
+.plans .container .plans-content .box .price span {
+    font-weight: 500 ;
+    font-size: 0.5em ;
+    color: #999999;
+}
+.plans .container .plans-content .box .options {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-between;
+}
+.plans .container .plans-content .box .options button {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 1.125em;
+    color: white;
+    border: 1px solid #262626;
+    padding:  1em;
+    border-radius: 8px;
+}
+.plans .container .plans-content .box .options button:first-of-type {
+    background-color: #141414;
+}
+.plans .container .plans-content .box .options button:last-of-type {
+    background-color: #E50000;
+}
+@media(max-width: 767px) {
+    .plans .container .plans-content {
+        flex-direction: column;
+    }
+    .plans .container .plans-content .box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .plans .container .plans-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2em;
+    }
+}
+/* End Plans */

@@ -1,0 +1,253 @@
+.flags {
+    width: 100px;
+    height: 50px;
+    overflow-y: hidden;
+    background-color: #1A1A1A;
+    border-radius: 8px;
+    overflow-x: hidden;
+    
+}
+#country {
+    overflow-y: hidden;
+    height: 50px;
+    overflow-x: hidden;
+    width: 100px;
+}
+#country li {
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #E50000;
+    border-radius: 5px;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: #999999;
+}
+
+#country.active-country {
+    overflow-y: scroll;
+    position: absolute;
+    height: 9em;
+    z-index: 6;
+    background-color: #1A1A1A;
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.flags.active-flags {
+    
+    overflow-x: hidden;
+    
+    position: relative;
+}
+.phone-input {
+    display: flex;
+    gap: 0.5em;
+    
+}
+
+
+#country li {
+    display: flex;
+    gap: 0.2em;
+    align-items: center;
+}
+#country li img.flag {
+    width: 50px;
+}
+#country li i {
+    color: #999999;
+    font-size: 1.2em;
+}
+
+.welcome-section {
+    margin-block: 7em;
+}
+.welcome-section .container {
+    display: flex;
+    gap: 4em;
+    align-items: flex-start;
+}
+.welcome-section .container .welcome {
+    flex: 1;
+}
+.welcome-section .container .welcome h2{
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 0.875em;
+}
+.welcome-section .container .welcome p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 1.6;
+    margin-bottom: 3em;
+    color: #999999;
+}
+.welcome-section .container .welcome .image {
+    width: 33.3em;
+}
+.welcome-section .container .welcome .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.welcome-section .container form {
+    background-color: #0F0F0F;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    padding: 3em;
+    flex: 2;
+}
+.welcome-section .container form .rows {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.welcome-section .container form .rows .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+.welcome-section .container form .rows .row > div {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 3em) / 2);
+}
+.welcome-section .container form .rows .row > div label {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 1.125em;
+    color: white;
+    margin-bottom: 1em;
+
+}
+.welcome-section .container form .rows .row > div input {
+    background-color: #141414;
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 1.25em;
+}
+.welcome-section .container form .rows .row > div input::placeholder {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 1.125em;
+    color: #999999;
+}
+.welcome-section .container form .rows .row .text-area {
+    width: 100%;
+}
+.welcome-section .container form .rows .row .text-area textarea {
+    background-color: #141414;
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 1.25em;
+    resize: none;
+    height: 13em;
+}
+.welcome-section .container form .rows .row > div textarea::placeholder {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 1.125em;
+    color: #999999;
+}
+.welcome-section .container form .rows .btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome-section .container form .rows .btns .check-box input{
+    opacity: 0;
+    cursor: pointer
+}
+.welcome-section .container form .rows .btns .check-box label {
+    position: relative;
+    padding-left: 1.5em;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #999999;
+}
+.welcome-section .container form .rows .btns .check-box label::before {
+    content: "";
+    position: absolute;
+    background-color: #0F0F0F;
+    border: 1px solid #262626;
+    border-radius: 4px;
+    width: 1em;
+    height: 1em;
+    left: -0.5em;
+    cursor: pointer;
+    bottom: 0;
+}
+.welcome-section .container form .rows .btns .check-box label::after {
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    background-color: #999999;
+    width: 1em;
+    height: 1em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    left: -0.5em;
+    transition: 0.3s;
+    opacity: 0;
+    bottom: 0;
+}
+.welcome-section .container form .rows .btns .check-box input:checked + label::after {
+    opacity: 1;
+}
+.welcome-section .container form .rows .btns .send input {
+    border-radius: 6px;
+    padding: 0.875em 1.25em;
+    background-color: #E50000;
+    color: white;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 0.875em;
+    border: 0;
+}
+@media(max-width: 767px) {
+    .welcome-section .container {
+        flex-direction: column;
+    }
+    .welcome-section .container .welcome ,
+    .welcome-section .container form {
+        width: 100%;
+    }  
+    .welcome-section .container .welcome .image {
+        width: 100%;
+    }
+    .welcome-section .container form .rows .row {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .welcome-section .container form .rows .row  > div {
+        width: 100%;
+    }
+    .welcome-section .container form .rows  .btns {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2em;
+    }
+    .welcome-section .container form .rows  .btns > div{
+        width: 100%;
+    }
+    .welcome-section .container form .rows  .btns > div input {
+        width: 100%;
+    }
+    .welcome-section .container form  {
+        padding: 1em;
+    }
+}
